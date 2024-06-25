@@ -1,0 +1,62 @@
+{
+    "displayName": "Missile",
+    "fluxCapacitors": 21,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "diableavionics_gust",
+    "hullMods": [
+        "expanded_deck_crew",
+        "fluxdistributor"
+    ],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_gust_missile",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0001": "diableavionics_hexafire2"}
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0002": "diableavionics_plover"}
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0014": "diableavionics_ibis",
+                "WS0015": "diableavionics_ibis"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0007": "diableavionics_graveac",
+                "WS0008": "diableavionics_graveac"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0009": "diableavionics_ibis",
+                "WS0010": "diableavionics_ibis",
+                "WS0011": "diableavionics_ibis"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "diableavionics_micromissile",
+                "WS0004": "diableavionics_micromissile",
+                "WS0005": "diableavionics_micromissile",
+                "WS0006": "diableavionics_micromissile"
+            }
+        }
+    ],
+    "wings": ["diableavionics_frost_wing"]
+}

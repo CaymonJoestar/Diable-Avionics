@@ -1,0 +1,54 @@
+{
+  "variantId": "diable_brisk_escort",
+  "hullId": "diable_brisk",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 4,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "heavyarmor",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "diableavionics_graveac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "diableavionics_ibis"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "diableavionics_burchel"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "diableavionics_microbuiltin",
+        "WS0006": "diableavionics_microbuiltin"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "diableavionics_glowfang"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

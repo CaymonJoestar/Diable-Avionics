@@ -1,0 +1,51 @@
+{
+    "displayName": "Quick-Strike",
+    "fluxCapacitors": 2,
+    "fluxVents": 28,
+    "goalVariant": true,
+    "hullId": "diableavionics_storm",
+    "hullMods": [],
+    "permaMods": [],
+    "sMods": [],
+    "variantId": "diableavionics_storm_strike",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0003": "diableavionics_hexafire",
+                "WS0004": "diableavionics_hexafire"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {"WS0010": "diableavionics_microcluster_left"}
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS0001": "diableavionics_plover",
+                "WS0002": "diableavionics_plover"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS0008": "diableavionics_ibis",
+                "WS0009": "diableavionics_ibis"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS0007": "diableavionics_ibis"}
+        }
+    ],
+    "wings": [
+        "diableavionics_valiant_wing",
+        "diableavionics_valiant_wing"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "masterVersionFile":"https://raw.githubusercontent.com/CaymonJoestar/Diable-Avionics/main/DA.version",
+    "modName":"Diable Avionics",
+    "modThreadId":29432,
+    "modNexusId":"15",
+    "directDownloadURL":"https://github.com/CaymonJoestar/Diable-Avionics/releases/download/DiableV.2.9.0/Diable-Avionics-v2.9.0.zip",
+    "modVersion":
+    {
+        "major":2,
+        "minor":9,
+        "patch":1
+    },
+}

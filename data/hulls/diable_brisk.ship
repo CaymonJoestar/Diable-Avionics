@@ -1,0 +1,116 @@
+{
+  "hullName": "Brisk",
+  "hullId": "diable_brisk",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/da/ships/diableavionics_brisk.png",
+  "style": "DA_WANZER",
+  "height": 116,
+  "width": 79,
+  "center": [36.5, 61],
+  "collisionRadius": 73,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 71.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0005": "diableavionics_microbuiltin",
+    "WS0006": "diableavionics_microbuiltin"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [1.5, -10.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": -110,
+      "locations": [-24, -28.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [27, 13.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [20, 0.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-2.5, -25.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [10, -25.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-38, -5],
+      "length": 17,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-39, -13],
+      "length": 17,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-32, 17],
+      "length": 17,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    }
+  ],
+  "bounds": [
+    48, 29.5,
+    -25.5, 33,
+    -38, 7.5,
+    -40, -27.5,
+    -36, -40.5,
+    -20, -40.5,
+    -9.5, -28.5,
+    41, -28.5,
+    41, -8,
+    30, -4.5,
+    38, 24.5
+  ]
+}

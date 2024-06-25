@@ -89,6 +89,9 @@ public class WanzerGantry extends BaseHullMod {
     @Override
     public void advanceInCombat(ShipAPI ship, float amount) {
 
+
+
+
         if (ship.getOriginalOwner() == -1) {
             return; //suppress in refit
         }
@@ -120,6 +123,7 @@ public class WanzerGantry extends BaseHullMod {
                         //instantly add all the required fighters upon deployment
                         bay.setFastReplacements(actualAdd);
                     }
+
 
                     //debug
 //                    Global.getCombatEngine().addFloatingText(

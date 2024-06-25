@@ -1,0 +1,151 @@
+{
+  "hullName": "Tidal",
+  "hullId": "diable_tidal",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/da/ships/diable_tidal.png",
+  "style": "HIGH_TECH",
+  "height": 227,
+  "width": 163,
+  "center": [80, 120],
+  "collisionRadius": 116,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 112.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "high_maintenance",
+    "repair_gantry",
+    "surveying_equipment",
+    "drive_field_stabilizer"
+  ],
+  "builtInWeapons": {
+    "WS0005": "miningblaster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 90,
+      "locations": [-2, 21]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -90,
+      "locations": [-2, -21]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 90,
+      "locations": [-16, 54]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -90,
+      "locations": [-16, -54]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [39, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-29, -35],
+      "length": 14.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-29, 35],
+      "length": 14.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-31, -42],
+      "length": 14.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-31, 42],
+      "length": 14.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-80, 7.5],
+      "length": 14.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-80, -7.5],
+      "length": 14.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "DiableAvionicsTrail"
+    }
+  ],
+  "bounds": [
+    -81, -14,
+    -80, -28.5,
+    -29, -29,
+    -32, -39.5,
+    -32, -49.5,
+    -37.5, -60,
+    -30, -69,
+    20.5, -68,
+    33, -62,
+    33.5, -23,
+    79.5, -22,
+    86, -12,
+    100, -11,
+    100, -4,
+    86.5, -0,
+    100, 4,
+    100, 11,
+    86, 12,
+    79.5, 22,
+    33.5, 23,
+    33, 62,
+    20.5, 68,
+    -30, 69,
+    -37.5, 60,
+    -32, 49.5,
+    -32, 39.5,
+    -29, 29,
+    -80, 28.5,
+    -81, 14
+  ]
+}

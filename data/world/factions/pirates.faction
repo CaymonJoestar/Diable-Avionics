@@ -3,18 +3,21 @@
         "hulls":{
             "diableavionics_stratus_p":0.5,
             "diableavionics_rime_p":0.5,
+            "diable_tidalp":0.5,
         },
     },
     "shipsWhenImporting":{
         "hulls":[
             "diableavionics_stratus_p",
             "diableavionics_rime_p",
+            "diable_tidalp",
         ],
     },
     "knownShips":{
         "hulls":[
             "diableavionics_stratus_p",
             "diableavionics_rime_p",
+            "diable_tidalp",
         ],
     },
 },

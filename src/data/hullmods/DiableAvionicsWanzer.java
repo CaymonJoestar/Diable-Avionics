@@ -1,8 +1,8 @@
 package data.hullmods;
 
-import com.fs.starfarer.api.combat.BaseHullMod;
-import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
+import com.fs.starfarer.api.impl.campaign.ids.HullMods;
 import data.scripts.ai.WanzerMovementScript;
 
 public class DiableAvionicsWanzer extends BaseHullMod {
@@ -21,10 +21,16 @@ public class DiableAvionicsWanzer extends BaseHullMod {
     }
 
     @Override
+    public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
+
+    }
+
+    @Override
     public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
         ship.getMutableStats().getEmpDamageTakenMult().modifyMult(id, (100 - EMP_RESIST) / 100);
         ship.getMutableStats().getEngineDamageTakenMult().modifyMult(id, (100 - DISABLE_RESIST) / 100);
         ship.getMutableStats().getWeaponDamageTakenMult().modifyMult(id, (100 - DISABLE_RESIST) / 100);
+
 
         ship.addListener(new WanzerMovementScript(ship));
     }

@@ -3,33 +3,56 @@ package data.hullmods;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.characters.ImportantPeopleAPI;
 import com.fs.starfarer.api.characters.PersonAPI;
-import com.fs.starfarer.api.combat.BaseHullMod;
-import com.fs.starfarer.api.combat.MutableShipStatsAPI;
-import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
-import com.fs.starfarer.api.combat.ShipEngineControllerAPI;
 import com.fs.starfarer.api.combat.listeners.AdvanceableListener;
 import com.fs.starfarer.api.graphics.SpriteAPI;
+import com.fs.starfarer.api.ui.Alignment;
+import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
 import com.fs.starfarer.api.util.Misc;
 import org.lazywizard.lazylib.MathUtils;
 import org.lwjgl.util.vector.Vector2f;
 import org.magiclib.plugins.MagicAutoTrails;
 import org.magiclib.plugins.MagicTrailPlugin;
-
 import java.awt.*;
 import java.util.HashMap;
 import java.util.Map;
 
+import static data.scripts.util.Diableavionics_stringsManager.txt;
+
 public class DiableAvionicsUpgrade extends BaseHullMod {
+
+    public static Map mag = new HashMap();
+    static {
+        mag.put(ShipAPI.HullSize.FIGHTER, 0f);
+        mag.put(ShipAPI.HullSize.FRIGATE, 25f);
+        mag.put(ShipAPI.HullSize.DESTROYER, 20f);
+        mag.put(ShipAPI.HullSize.CRUISER, 15f);
+        mag.put(ShipAPI.HullSize.CAPITAL_SHIP, 10f);
+    }
 
     @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
-        stats.getBallisticWeaponDamageMult().modifyPercent(id, 30);
-        stats.getEnergyWeaponDamageMult().modifyPercent(id, 30);
-        stats.getBallisticWeaponFluxCostMod().modifyPercent(id, 30);
-        stats.getEnergyWeaponFluxCostMod().modifyPercent(id, 30);
+        stats.getMaxSpeed().modifyFlat(id, (Float) mag.get(hullSize.toString()));
     }
+
+    @Override
+    public boolean shouldAddDescriptionToTooltip(ShipAPI.HullSize hullSize, ShipAPI ship, boolean isForModSpec) {
+        return !isForModSpec;
+    }
+
+//    //更多的描述拓展
+//    public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
+//        int MAXLIMIT = 0;
+//        CombatEngineAPI engine = Global.getCombatEngine();
+//
+//        tooltip.addSectionHeading("根据舰船系统的不同，额外获得以下增益:", Alignment.TMID, 4f);
+//        if(ship.getSystem().getId().equals("diableavionics_drift"))
+//            tooltip.addPara("额外添加的时流线圈强化了系统的效力，时流持续时间增加100%(+0.1s)" , new Color(106, 168, 79, 255), 4f);
+//
+//    }
+
 
     @Override
     public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
@@ -39,14 +62,22 @@ public class DiableAvionicsUpgrade extends BaseHullMod {
     @Override
     public String getDescriptionParam(int index, HullSize hullSize) {
         if (index == 0) {
-            return "30%";
+            return "25";
         }
         if (index == 1) {
-            return "30%";
+            return "15";
         }
         if (index == 2) {
-            return "5%";
+            return "10";
         }
+        if (index == 3) {
+            return "5";
+        }
+        if (index == 4) {
+            return "7%";
+        }
+
+
         return null;
     }
 
@@ -83,14 +114,14 @@ public class DiableAvionicsUpgrade extends BaseHullMod {
 
                 float newFlux = ship.getCurrFlux() / ship.getMaxFlux();
                 if (avionicsBoost) {
-                    if (newFlux - lastFluxCap >= 0.05f) {
+                    if (newFlux - lastFluxCap >= 0.07f) {
                         interval.setInterval(5f, 5f);
 
                         avionicsBoost = false;
                         ship.getMutableStats().getZeroFluxMinimumFluxLevel().unmodify("diableavionics_advancedAvionics");
                     }
                 } else {
-                    if (newFlux - lastFluxCap < 0.05f) {
+                    if (newFlux - lastFluxCap < 0.07f) {
                         avionicsBoost = true;
                         // set to two, meaning boost is always on
                         ship.getMutableStats().getZeroFluxMinimumFluxLevel().modifyFlat("diableavionics_advancedAvionics", 2f);
@@ -107,8 +138,8 @@ public class DiableAvionicsUpgrade extends BaseHullMod {
                 if (effectInterval.intervalElapsed()) {
                     float angle = Misc.getAngleInDegrees(new Vector2f(ship.getVelocity()));
                     float opacity = ship.getVelocity().length() / ship.getMaxSpeed();
-                    float startSize = 4f;
-                    float endSize = 4f;
+                    float startSize = 5f;
+                    float endSize = 5f;
                     float duration = 2f;
                     float opacityMult = 1f;
 

@@ -121,113 +121,6 @@
       "locations": [17, 68.5]
     },
     {
-      "id": "LB 1",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [37.5, 12.5]
-    },
-    {
-      "id": "LB 2",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [
-        37, 2.5,
-        34, 7.5,
-        -47, 14,
-        -48, 12.5,
-        -48, 4.5,
-        -46.5, 1.5,
-        -48, 8
-      ]
-    },
-    {
-      "id": "LB 3",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [40.5, 4]
-    },
-    {
-      "id": "LB 4",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [37.5, 7]
-    },
-    {
-      "id": "LB 5",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [40, 10.5]
-    },
-    {
-      "id": "LB 6",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [-50.5, 11.5]
-    },
-    {
-      "id": "LB 7",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [-50.5, 13.5]
-    },
-    {
-      "id": "LB 8",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [-51, 8.5]
-    },
-    {
-      "id": "LB 9",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [-50.5, 4]
-    },
-    {
-      "id": "LB 10",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [-51.5, 6]
-    },
-    {
-      "id": "LB 11",
-      "size": "LARGE",
-      "type": "LAUNCH_BAY",
-      "mount": "HIDDEN",
-      "arc": 360,
-      "angle": 0,
-      "locations": [-49, 2]
-    },
-    {
       "id": "WS0012",
       "size": "SMALL",
       "type": "BUILT_IN",
@@ -262,6 +155,30 @@
       "arc": 20,
       "angle": 90,
       "locations": [62, 60]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        37, 3.5,
+        37, -0.5
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -55, 6,
+        -56, -1.5
+      ]
     }
   ],
   "engineSlots": [

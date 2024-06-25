@@ -71,6 +71,10 @@
             "diableavionics_stratus_p_outdated":4,
             "diableavionics_stratus_p_support":2,
 
+            "diable_tidalp_overdrive":2,
+            "diable_tidalp_standard":4,
+            "diable_tidalp_support":3,
+
 	},
 	"combatLarge":{
             "diableavionics_haze_standard":2,	
@@ -227,12 +231,14 @@
 	# utility ships
 	"tug":{
             "diableavionics_shear_standard":10,
+            "diable_tidal_standard":5,
 	},
 	"crig":{
 	},
 	"utility":{
             "diableavionics_laminar_miner":5,
             "diableavionics_shear_standard":5,
+            "diable_tidal_standard":2,
 	},
 	
 	"orbitalStationLowTech":{

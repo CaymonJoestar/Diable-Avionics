@@ -164,6 +164,11 @@ diable_polarV,SHIP,"An outliner in the fleet doctrine commonly seen in Diable Av
 
 Being such an unusual sight and fielding an rare role not usually needed, it begs the question on how the Diable Avionics Corporation managed to design such a ship and why. While the corporation has given no official answer to such questions, rumors and noted similarlities to the commonly seen Sunder-class destroyers of the Persean League and Sindrian Diktat suggests a common ancestry between the two ships at one point.",,,
 ,,,,,
+diable_tidal,SHIP,"A drainer of supplies, the Tidal support destroyer is considered a 3 in one deal, coming equipped with an salvage gantry array, surveying equipment and an drive field stabilizer all in one ship to condense fleet size from mulit ships into just one. However carrying all this equipment puts a big burden on the fleet's supplies as the Tidal runs through it all to maintain itself, making having more than a couple an undesireable burden on long operations",,,
+diable_tidalp,SHIP,"While degraded by many cycles of bad maintenance and combat repairs, it is obvious to the keen observer that this non-standard hull was not modified after the production, but is actually a completely distinct model. For a short while the Diable Corporation secretly armed pirates with these altered ships. A plan that quickly and unsurprisingly backfired when those same ships changed hands to people without any interest in sparing Diable Avionics Corp freight. As such, those pirate-themed hulls have become somewhat of a rare sight.
+
+This version of the Tidal has been granted additional armor and had all its uility equipment removed to make room for more hardpoints and a built-in missile autoloader, the engines have been improved and the front had been modified to had a flight deck installed along with an built in LPC for Arbitrator fighters to support the ship in combat, making it an more affordable verison of the Pocket Gust for its intended clientel... until they realize that the maintence bill for the ship is still higher than most pirate ships, making this ship uncommon in pirate fleets despite its frontline effectiveness",,,
+,,,,,
 VIRTUOUS,,,,,
 ,,,,,
 ,,,,,

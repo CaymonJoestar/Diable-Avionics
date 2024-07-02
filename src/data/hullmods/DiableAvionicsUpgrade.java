@@ -23,18 +23,16 @@ import static data.scripts.util.Diableavionics_stringsManager.txt;
 
 public class DiableAvionicsUpgrade extends BaseHullMod {
 
-    public static Map mag = new HashMap();
+    private static Map mag = new HashMap();
     static {
-        mag.put(ShipAPI.HullSize.FIGHTER, 0f);
-        mag.put(ShipAPI.HullSize.FRIGATE, 25f);
-        mag.put(ShipAPI.HullSize.DESTROYER, 20f);
-        mag.put(ShipAPI.HullSize.CRUISER, 15f);
-        mag.put(ShipAPI.HullSize.CAPITAL_SHIP, 10f);
+        mag.put(HullSize.FRIGATE, 25f);
+        mag.put(HullSize.DESTROYER, 15f);
+        mag.put(HullSize.CRUISER, 10f);
+        mag.put(HullSize.CAPITAL_SHIP, 10f);
     }
 
-    @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
-        stats.getMaxSpeed().modifyFlat(id, (Float) mag.get(hullSize.toString()));
+        stats.getMaxSpeed().modifyFlat(id, (Float) mag.get(hullSize));
     }
 
     @Override
@@ -173,8 +171,5 @@ public class DiableAvionicsUpgrade extends BaseHullMod {
             engineEffectLevel = MathUtils.clamp(engineEffectLevel, 0f, 1f);
             ship.getEngineController().fadeToOtherColor(this, ENGINE_COLOR, new Color(0, 0, 0, 0), engineEffectLevel, 0.33f);
         }
-    }
-
-    public DiableAvionicsUpgrade() {
     }
 }

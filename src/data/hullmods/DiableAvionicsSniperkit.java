@@ -20,7 +20,6 @@ public class DiableAvionicsSniperkit extends BaseHullMod {
 
     public static Map mag = new HashMap();
     static {
-        mag.put(ShipAPI.HullSize.FIGHTER, 0f);
         mag.put(ShipAPI.HullSize.FRIGATE, 10f);
         mag.put(ShipAPI.HullSize.DESTROYER, 20f);
         mag.put(ShipAPI.HullSize.CRUISER, 40f);
@@ -37,11 +36,10 @@ public class DiableAvionicsSniperkit extends BaseHullMod {
                 continue;
             }
             if(stats.getVariant().getWingId(i).equals("diableavionics_warlust_wing")){
-                FighterWingSpecAPI wanzer = stats.getVariant().getWing(i);
                if(sMod){
-                   wanzer.setRange(wanzer.getRange()*SMOD_REDUCED_RANGE);
+                   stats.getFighterWingRange().modifyMult(id, 0.25f);
                }else{
-                   wanzer.setRange(wanzer.getRange()*REDUCED_RANGE);
+                   stats.getFighterWingRange().modifyMult(id, 0f);
                }
             }
         }
@@ -55,7 +53,7 @@ public class DiableAvionicsSniperkit extends BaseHullMod {
         if (fighter.getWing() != null && fighter.getWing().getSpec() != null) {
             if(fighter.getWing().getWingId().equals("diableavionics_warlust_wing"))
             {
-
+                fighter.addTag(Tags.WING_STAY_IN_FRONT_OF_SHIP);
                 fighter.getMutableStats().getBallisticWeaponRangeBonus().modifyPercent(id,(Float)mag.get(ship.getHullSize()));
 //                List<WeaponAPI> Allweapon= fighter.getWingLeader().getAllWeapons();
 //                for(WeaponAPI w:Allweapon){

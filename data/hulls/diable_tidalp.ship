@@ -13,8 +13,8 @@
   "viewOffset": 0,
   "builtInMods": [
     "missile_autoloader",
-    "ballistic_rangefinder",
-    "high_maintenance"
+    "high_maintenance",
+    "diableavionics_mountBI"
   ],
   "builtInWings": [
     "diableavionics_arbitrator_wing"

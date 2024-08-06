@@ -31,7 +31,7 @@ Wanzer Disruption,diableavionics_subsystem_wanzerdisruption,,,,,,,,TRUE,TRUE,0,0
 #Optimized Operations,diableavionics_cc,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsCC,"The crew of this ship has been trained to follow the extremely strict protocols of the Diable Avionics Corporation, leading to a somewhat more economical maintenance of %s or %s supplies per month (whichever comes first). The reduced amount of immediately available spare parts means that recovering from combat deployment takes about %s more time.",Reduce the monthly maintenance but also reduces the CR recovery.,,graphics/da/hullmods/diableavionics_cc.png
 Hyperspace Navigation Protocols,diableavionics_cc,,,,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsCC,"The crew of this ship has been trained to spot and weather deep hyperspace storms, ships will take %s less damage from strikes.",Reduce the impact of hyperspace storms on the fleet.,,graphics/da/hullmods/diableavionics_cc.png
 ,,,,,,,,,,,,,,,,,,,
-# STATION REVERSE ROTAION,,,,,,,,,,,,,,,,,,,
+# STATION REVERSE ROTATION,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,
 Axial Rotation,diableAvionics_axialrotation,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsAxialRotation,This structure constantly rotates around its axis.,,,graphics/hullmods/axial_rotation.png
 ,,,,,,,,,,,,,,,,,,,

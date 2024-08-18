@@ -18,8 +18,8 @@ public class Diableavionics_berserkStats extends BaseShipSystemScript {
         stats.getMaxRecoilMult().modifyMult(id, 1-(effectLevel*0.33f));
 
         stats.getEnergyWeaponRangeBonus().modifyMult(id, 1+(effectLevel/2));        
-        stats.getEnergyRoFMult().modifyMult(id, 1+(effectLevel*2f));
-        stats.getBallisticRoFMult().modifyMult(id,1+(effectLevel*2f));
+        stats.getEnergyRoFMult().modifyMult(id, 1+(effectLevel*1f));
+        stats.getBallisticRoFMult().modifyMult(id,1+(effectLevel*1f));
         stats.getProjectileSpeedMult().modifyMult(id, 1+effectLevel);
         
         

@@ -1,15 +1,12 @@
 package data.shipsystems.scripts;
 
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.combat.FighterLaunchBayAPI;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 //import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import static data.scripts.util.Diableavionics_stringsManager.txt;
-
-import com.thoughtworks.xstream.mapper.Mapper;
-import org.magiclib.util.MagicAnim;
+import data.scripts.util.MagicAnim;
 import java.awt.Color;
 
 public class Diableavionics_driftStats extends BaseShipSystemScript {
@@ -24,9 +21,7 @@ public class Diableavionics_driftStats extends BaseShipSystemScript {
     @Override
     public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {
         
-        float effect = Math.min(1, Math.max(0, MagicAnim.smoothReturnNormalizeRange(effectLevel, 0, 1)/2
-                + MagicAnim.smoothReturnNormalizeRange(effectLevel*1.5f, 0, 1)/2
-                + MagicAnim.smoothReturnNormalizeRange(effectLevel*2, 0, 1)/2));
+        float effect = Math.min(1, Math.max(0, MagicAnim.smoothReturnNormalizeRange(effectLevel, 0, 1)/2 + MagicAnim.smoothReturnNormalizeRange(effectLevel*1.5f, 0, 1)/2 + MagicAnim.smoothReturnNormalizeRange(effectLevel*2, 0, 1)/2));
         
         //visual effect
         ShipAPI ship = (ShipAPI) stats.getEntity();
@@ -70,14 +65,8 @@ public class Diableavionics_driftStats extends BaseShipSystemScript {
         
         //time drift
         stats.getTimeMult().modifyPercent(id, TIME_BUFF * effect);
-//        ship.getLaunchBaysCopy();
-//        int n=1;
-//        for(FighterLaunchBayAPI B:ship.getLaunchBaysCopy()){
-//            if (B.getWing() == null) continue;
-//            Global.getLogger(this.getClass()).info("bay:"+n+" wings fit time ="+B.getTimeUntilNextReplacement());
-//            Global.getLogger(this.getClass()).info("bay:"+n+" wings fit time ="+B.getTimeUntilNextReplacement());
-//            n++;
-//        }
+        
+        
     }
     @Override
     public void unapply(MutableShipStatsAPI stats, String id) {

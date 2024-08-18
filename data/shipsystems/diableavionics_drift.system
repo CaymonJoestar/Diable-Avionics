@@ -1,8 +1,8 @@
 {
 	"id":"diableavionics_drift",
 	"type":"ENGINE_MOD",
-	"aiType":"CUSTOM",
-	"aiScript":"data.shipsystems.scripts.ai.Diableavionics_driftAI",
+	"aiType":"MANEUVERING_JETS",
+	
 	"statsScript":"data.shipsystems.scripts.Diableavionics_driftStats",
 
 	"clampTurnRateAfter":true,

@@ -55,7 +55,7 @@ Banish Torpedo (twin),diableavionics_banishsmall,1,,350,1250,,2000,2000,500,18,2
 Banish Torpedo Launcher,diableavionics_banish,2,0.75,1550,1500,,2000,2000,500,25,11,9,,,ENERGY,500,,0,10,1,,0,0,0,0,,10,120,6,300,,,"STRIKE, USE_VS_FRIGATES, DO_NOT_CONSERVE, DO_NOT_AIM","missile13, strike9, diable_weapon_bp",,Diable Avionics,,Opener,Fast,Pre-Aimed,,,,,,,TRUE,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Plover Rocket Pod,diableavionics_plover,0,,1220,1250,,600,,33,12,10,50,,,HIGH_EXPLOSIVE,0,,0,4.05,4,0.15,0,1,0.1,1,,500,50,4,100,,,,"rocket13, strike8, diable_weapon_bp",,Diable Avionics,,Anti Armor,Medium,None,,,"%s: spreads up to %s of its damage inside the enemy ship, disabling weapons away from the edge of the hull.",Pierce Damage|half,,,,
-Thrush LRM System,diableavionics_thrush,1,,1150,7000,,750,,65,30,13,10,0.13334,2,HIGH_EXPLOSIVE,0,,0,9,2,1,0,0,0,0,,425,25,16,300,,,"DO_NOT_AIM, CONSERVE_1","missile12, strike8, diable_weapon_bp, rare_bp",,Diable Avionics,,Stand-off Support,Medium,Average,,,%s: The missiles deploy %s if they miss their intended target.,Secondary Payload|12 Micro-missiles,,,,
+Thrush LRM System,diableavionics_thrush,1,,1150,7000,,600,,65,30,13,10,0.06667,2,HIGH_EXPLOSIVE,0,,0,10,2,1,0,0,0,0,,425,25,16,200,,,"DO_NOT_AIM, CONSERVE_1","missile12, strike8, diable_weapon_bp, rare_bp",,Diable Avionics,,Stand-off Support,Medium,Average,,,%s: The missiles deploy %s if they miss their intended target.,Secondary Payload|12 Micro-missiles,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

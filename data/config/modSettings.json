@@ -25,7 +25,7 @@
         # Refit time bonus for wanzer installed on a ship with the Wanzer Gantry hullmod. Default : 0.5
 
         "gantry_depletionPercent" : 20,
-        # Fighter replacement rate depletion malus per wanzer wing installed on a ship with the Wanzer Gantry hullmod. Default : 20
+        # Fighter replacement rate depletion malus per Wanzer wing installed on a ship with the Wanzer Gantry hullmod. Default : 20
 
 		"gantry_OPeffect" : 7,
 		

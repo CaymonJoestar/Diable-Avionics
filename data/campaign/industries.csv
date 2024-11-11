@@ -3,7 +3,7 @@ diableavionics_orbitalstation,Orbital Station - Diable Avionics,50,90,,3,,diable
 radius:55,
 variant:diableavionics_station_tier1,
 fleetName:Orbital Station,
-}",graphics/icons/industry/orbital_station.png,data.campaign.industry.Diableavionics_orbitalStation,"A coriolis space station, featuring moderate firepower and substancial fighter defenses.
+}",graphics/icons/industry/orbital_station.png,data.campaign.industry.Diableavionics_orbitalStation,"A coriolis space station, featuring moderate firepower and substantial fighter defenses.
 
 Must be reduced before invasions or bombardment can be attempted.",2010
 
@@ -33,7 +33,7 @@ diableavionics_orbitalstation_lock,Orbital Station - Diable Avionics,50,90,,3,,d
 radius:55,
 variant:diableavionics_station_lock1,
 fleetName:Orbital Station,
-}",graphics/icons/industry/orbital_station.png,data.campaign.industry.Diableavionics_orbitalStation_lock,"A coriolis space station, featuring moderate firepower and substancial fighter defenses.
+}",graphics/icons/industry/orbital_station.png,data.campaign.industry.Diableavionics_orbitalStation_lock,"A coriolis space station, featuring moderate firepower and substantial fighter defenses.
 
 Must be reduced before invasions or bombardment can be attempted.",2010
 

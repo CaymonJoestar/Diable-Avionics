@@ -11,12 +11,12 @@ import java.awt.Color;
 
 public class Diableavionics_driftStats extends BaseShipSystemScript {
 
-    private final Integer TURN_ACC_BUFF = 1000;
-    private final Integer TURN_RATE_BUFF = 500;
-    private final Integer ACCEL_BUFF = 500;
-    private final Integer DECCEL_BUFF = 300;
-    private final Integer SPEED_BUFF = 200;
-    private final Integer TIME_BUFF = 1000;
+    private final Integer TURN_ACC_BUFF = 500;
+    private final Integer TURN_RATE_BUFF = 250;
+    private final Integer ACCEL_BUFF = 250;
+    private final Integer DECCEL_BUFF = 150;
+    private final Integer SPEED_BUFF = 100;
+    private final Integer TIME_BUFF = 500;
     
     @Override
     public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {

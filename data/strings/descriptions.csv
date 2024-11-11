@@ -685,7 +685,7 @@ The FV-16 ""Plover"" Heavy Rocket is a relatively simple implementation of the n
 # THRUSH,,,,,
 ,,,,,
 ,,,,,
-diableavionics_thrush,WEAPON,A hybrid dual-rail long-range interception system. Launches a pair of fast missiles equipped with a powerful main warhead. It can also deploy four Micro-Missiles as a backup system should the main carrier fail to successfully intercept its intended target.,Fire Support,,
+diableavionics_thrush,WEAPON,A hybrid dual-rail long-range interception system. Launches a pair of fast missiles equipped with a powerful main warhead. It can also deploy eight Micro-Missiles as a backup system should the main carrier fail to successfully intercept its intended target.,Fire Support,,
 ,,,,,
 ,,,,,
 # SPECIAL,,,,,

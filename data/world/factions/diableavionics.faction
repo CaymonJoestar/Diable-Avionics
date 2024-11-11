@@ -347,6 +347,7 @@
             "shielded_holds",
             "recovery_shuttles",
             "ecm",
+            "diableavionics_sniperkit",
             "diableavionics_mount",
             "diableavionics_avionics"
         ],

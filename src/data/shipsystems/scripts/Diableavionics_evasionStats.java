@@ -10,11 +10,11 @@ public class Diableavionics_evasionStats extends BaseShipSystemScript {
 
     @Override
     public void apply(MutableShipStatsAPI stats, String id, State state, float effectLevel) {        
-        stats.getMaxSpeed().modifyFlat(id, 1000f*effectLevel);
-        stats.getAcceleration().modifyPercent(id, 4000f * effectLevel);
-        stats.getDeceleration().modifyPercent(id, 4000f * effectLevel);
-        stats.getTurnAcceleration().modifyPercent(id, 1000f * effectLevel);
-        stats.getMaxTurnRate().modifyPercent(id, 1000f*effectLevel);
+        stats.getMaxSpeed().modifyFlat(id, 750f*effectLevel);
+        stats.getAcceleration().modifyPercent(id, 1200f * effectLevel);
+        stats.getDeceleration().modifyPercent(id, 1200f * effectLevel);
+        stats.getTurnAcceleration().modifyPercent(id, 750f * effectLevel);
+        stats.getMaxTurnRate().modifyPercent(id, 750f*effectLevel);
         stats.getHullDamageTakenMult().modifyPercent(id, 100-50*effectLevel);
         stats.getArmorDamageTakenMult().modifyPercent(id, 100-50*effectLevel);
         

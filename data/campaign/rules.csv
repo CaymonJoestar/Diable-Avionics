@@ -225,14 +225,3 @@ The comm link closes and the display goes black.
 A security team enters the Virtuous. On the tactical display, you see the doors open to the bridge autonomously, where a mess of hanging wires and disconnected life support systems surround a husk of a corpse. The team lead checks its vitals and reports it as deceased.
 
 After another few minutes, the security team clears the Virtuous, with no other signs of life aboard the ship.","cutCommLink:Claim the Virtuous.",
-diableavionics_nex_NGCPickStartingShips,ExerelinNGCStep3,"$playerFaction == diableavionics
-!$diableavionics_ChangeMind
-$corvusMode","AddText ""Claiming ownership over the possessions of millions seems to be a bold claim, but it is one that the Diable Avionics Corporation intends to enforce - by deadly means if necessary.""
-SetTextHighlightColors hColor
-SetTextHighlights Diable Avionics Corporation
-$diableavionics_ChangeMind = true 0",,,
-diableavionics_nex_NGCPickStartingShips2,ExerelinNGCStep3,"$playerFaction == diableavionics
-EIS_HasModId timid_commissioned_hull_mods
-!$diableavionics_ChangeMind","AddText ""Commissioned Crews Bonus: Ships take reduced damage when struck by hyperspace storms.""
-SetTextHighlights Commissioned Crews Bonus
-$diableavionics_ChangeMind = true 0",,,

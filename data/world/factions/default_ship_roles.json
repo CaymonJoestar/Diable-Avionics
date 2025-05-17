@@ -71,6 +71,10 @@
             "diableavionics_stratus_p_outdated":4,
             "diableavionics_stratus_p_support":2,
 
+            "diableavionics_chinookp_override":2,
+            "diableavionics_chinookp_standard":4,
+            "diableavionics_chinookp_support":3,
+
             "diable_tidalp_overdrive":2,
             "diable_tidalp_standard":4,
             "diable_tidalp_support":3,

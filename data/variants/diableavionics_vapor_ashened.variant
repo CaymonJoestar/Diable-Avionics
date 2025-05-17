@@ -1,0 +1,46 @@
+{
+  "variantId": "diableavionics_vapor_ashened",
+  "hullId": "diableavionics_vapor",
+  "displayName": "Ashened",
+  "goalVariant": false,
+  "fluxCapacitors": 6,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": ["diableavionics_avionics",
+ "diableavionics_aquila"],
+  "hullMods": [
+    "fluxdistributor",
+    "reinforcedhull",
+    "hardenedshieldemitter"
+  ],
+  "sMods": [
+  "heavyarmor",
+  "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "diableavionics_gravemg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "diableavionics_glowtusk"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "diableavionics_banishsmall",
+        "WS0004": "diableavionics_banishsmall"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

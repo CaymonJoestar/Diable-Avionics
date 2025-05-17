@@ -81,7 +81,7 @@ public class DiableAvionicsUpgrade extends BaseHullMod {
 
     @Override
     public boolean isApplicableToShip(ShipAPI ship) {
-        return ship.getHullSpec().getHullId().startsWith("diableavionics_")
+        return ship.getHullSpec().getHullId().startsWith("diable_")
                 && !ship.getVariant().hasHullMod(DampenedMounts.MODULAR_MOUNT_ID)
                 && !ship.getVariant().getPermaMods().contains(DampenedMounts.MODULAR_MOUNT_ID)
                 && !ship.getVariant().getSMods().contains(DampenedMounts.MODULAR_MOUNT_ID);

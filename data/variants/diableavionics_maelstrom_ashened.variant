@@ -1,0 +1,86 @@
+{
+  "variantId": "diableavionics_maelstrom_ashened",
+  "hullId": "diableavionics_maelstrom",
+  "displayName": "Ashened brawler",
+  "goalVariant": true,
+  "fluxCapacitors": 27,
+  "fluxVents": 45,
+  "quality": 1,
+  "permaMods": ["diableavionics_avionics",
+ "diableavionics_aquila"],
+  "hullMods": [
+    "diableavionics_sniperkit"
+  ],
+  "sMods": [
+  "heavyarmor",
+  "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0014": "diableavionics_thunderboltsmall",
+        "WS0015": "diableavionics_thunderboltsmall",
+        "WS0016": "diableavionics_thunderboltsmall",
+        "WS0017": "diableavionics_thunderboltsmall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "diableavionics_microarray"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "diableavionics_hexafire",
+        "WS0004": "diableavionics_hexafire",
+        "WS0005": "diableavionics_hexafire"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "diableavionics_ibis",
+        "WS0008": "diableavionics_ibis",
+        "WS0009": "diableavionics_ibis",
+        "WS0010": "diableavionics_ibis"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "diableavionics_opfergv"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "diableavionics_raptor"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "diableavionics_ibis",
+        "WS0013": "diableavionics_ibis",
+        "WS0022": "diableavionics_ibis",
+        "WS0023": "diableavionics_ibis",
+        "WS0024": "diableavionics_ibis"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "diableavionics_warlust_wing",
+    "diableavionics_warlust_wing"
+  ]
+}

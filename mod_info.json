@@ -6,10 +6,10 @@
     {
       "major": 2,
       "minor": 9,
-      "patch": 2c
+      "patch": 3
     },
   "description": "Claiming ownership over the possessions of millions seems to be a bold claim, but is one the Diable Avionics Corporation intends to enforce, with deadly means if necessary.",
-  "gameVersion": "0.97a",
+  "gameVersion": "0.98a-RC5",
   "dependencies": [
     {
       "id": "lw_lazylib",

@@ -1,0 +1,231 @@
+{
+  "hullName": "Chinook(P)",
+  "hullId": "diableavionics_chinookp",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/da/ships/diable_chinook_p.png",
+  "style": "HIGH_TECH",
+  "height": 117,
+  "width": 210,
+  "center": [105, 57],
+  "collisionRadius": 116,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 113,
+  "viewOffset": 0,
+  "builtInMods": [
+    "bdeck"
+  ],
+  "builtInWings": [
+    "borer_wing"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [13, -89]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [25.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -90,
+      "locations": [-7, -20]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 90,
+      "locations": [-7, 20]
+    },
+    {
+      "id": "WS0007",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        23, 63,
+        35, 62.5
+      ]
+    },
+    {
+      "id": "WS0008",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        35.5, -62,
+        25, -62
+      ]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [13, 89]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [28, 30.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [28, -30.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-54, 34.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-55, -33.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-55, 41.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-56, -41.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-56, 49.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-57, -49.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-37, 18],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-37, -18],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    }
+  ],
+  "bounds": [
+    -38, 21,
+    -27, 25,
+    -55, 31,
+    -57, 53,
+    -31, 66.5,
+    -41, 78.5,
+    -33, 85,
+    -17, 85,
+    0, 105,
+    8, 105,
+    15, 98,
+    17, 85,
+    14.5, 83,
+    59, 76.5,
+    37, 73.5,
+    41, 68,
+    51.5, 63,
+    52, 54,
+    26, 54,
+    24, 40,
+    29, 30.5,
+    23, 7,
+    28.5, -0,
+    23, -7,
+    29, -30.5,
+    24, -40,
+    26, -54,
+    52, -54,
+    51.5, -63,
+    41, -68,
+    37, -73.5,
+    59, -76.5,
+    14.5, -83,
+    17, -85,
+    15, -98,
+    8, -105,
+    0, -105,
+    -17, -85,
+    -33, -85,
+    -41, -78.5,
+    -31, -66.5,
+    -57, -53,
+    -55, -31,
+    -27, -25,
+    -38, -21,
+    -52, -0
+  ]
+}

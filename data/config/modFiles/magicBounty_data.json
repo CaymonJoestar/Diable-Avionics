@@ -55,4 +55,108 @@
     "existing_target_memkey":"$virtuous",
     },
 
+"diable_ashened":{
+    
+        "trigger_market_id":["nachiketa"],    
+        "trigger_marketFaction_any": ["hegemony"],
+        "trigger_marketFaction_alliedWith": true,
+        "trigger_marketFaction_none": [],
+        "trigger_marketFaction_enemyWith": false,
+        "trigger_market_minSize": 4,
+        "trigger_player_minLevel": 6,
+        "trigger_min_fleet_size": 200,
+        "trigger_min_days_elapsed": 180, 
+        "trigger_weight_mult": 0,
+        #"trigger_memKeys_all": {"$key":true,},
+        #"trigger_memKeys_any": {"$key":true,},
+        #"trigger_playerRelationship_atLeast": {"faction":0.0,},
+        "trigger_playerRelationship_atMost": {"diableavionics":0.0,},
+        
+        #BOUNTY DESCRIPTION
+        
+        "job_name": "Reigniting the ashes",
+        "job_description": "A Hegemony procurement office has issued a bounty for the destruction of a Diable Avionics fleet responsible for a recent raid on a high-security installation in the ==Naraka star systen==. While the Hegemony response prevented critical assets from being taken, logs indicate that the raiders escaped with several copies of classified research data and advanced prototype components for a ==reactor protocol of some sort==. If left unchecked, The Diable Avionics Corp may use this stolen material to develop and deploy new technologies across their fleets, posing a significant threat to Hegemony interests and sector stability.Independent captains are authorized to intercept and eliminate the target fleet. All stolen materials must be destroyed. The Hegemony will not attempt recovery of the items, prioritizing containment over reclamation. Payment will be issued upon confirmation of the fleet's elimination. The Hegemony is unable to confirm whetever or not the raiding fleet was be able to procure the ability to apply the prototype to ships within the fleet so prepare accordingly",
+        "job_comm_reply": "",
+        "job_intel_success": "",
+        "job_intel_failure": "",
+        "job_intel_expired": "",
+        "job_forFaction": "hegemony",
+        "job_deadline": 0,
+        "job_credit_reward": 240000,
+        "job_reward_scaling": 1.3,
+        "job_reputation_reward":10,
+        "job_item_reward": {"item":0,},
+        "job_type":"obliteration",
+        "job_show_type": true,
+        "job_show_captain": false,
+        "job_show_fleet": "flagship",
+        "job_show_distance": "vanilla",
+        "job_show_arrow": false,
+        "job_difficultyDescription": "auto",
+        "job_pick_option": "Accept the job",
+        #"job_pick_script": "data.script.script",
+        #"job_memKey":"$key",
+        #"job_conclusion_script":"data.script.script",
+        
+		#"existing_target_memkey":"$memKey",
+
+        #TARGET COMMANDER (OPTIONAL)
+        
+        #"target_first_name":"",
+        #"target_last_name":"",
+        #"target_portrait":"",
+        #"target_gender":"UNDEFINED",
+        #"target_rank": "citizen",
+        #"target_post": "spacer",
+        "target_personality": "aggressive",
+        #"target_aiCoreId": null,
+        "target_level": 8,
+        "target_elite_skills":8,
+        "target_skill_preference": "YES_ENERGY_YES_BALLISTIC_NO_MISSILE_YES_DEFENSE",
+        #"target_skills": {"skill":1,}, 
+    
+    
+        #TARGET FLEET
+        
+        "fleet_name":"The Ashened",
+        "fleet_faction": "diableavionics",
+        "fleet_flagship_variant":"diable_ashfallxivd_ashened",
+        "fleet_flagship_name":"Lord of Ashes",
+        "fleet_flagship_alwaysRecoverable": true,
+        "fleet_flagship_autofit": false,
+        "fleet_preset_ships": {
+            "diable_polarV_ashened":3,
+            "diable_riptide_ashened":3,
+            "diableavionics_coanda_ashened":3,
+            "diableavionics_derecho_ashened":2,
+            "diableavionics_gust_ashened":3,
+            "diableavionics_hayle_ashened":2,
+            "diableavionics_hayle_ashened2":2,
+            "diableavionics_haze_ashened":3,
+            "diableavionics_maelstrom_ashened":3,
+            "diableavionics_miniGust_ashened":2,
+            "diableavionics_storm_ashenend":3,
+            "diableavionics_vapor_ashened":5,
+        },
+        "fleet_preset_autofit": false,
+        "fleet_scaling_multiplier": 1.3,
+        "fleet_min_FP": 200,
+        "fleet_composition_faction": "diableavionics",
+        "fleet_composition_quality": 2,
+        "fleet_transponder": false,
+		"fleet_no_retreat": false,
+        "fleet_behavior": "GUARDED",
+        
+        #LOCATION
+        
+        #"location_entitiesID": ["location1",],
+    	#"location_marketFactions": ["faction",],
+        "location_distance": "CLOSE",
+		"location_themes": ["procgen_no_theme", "procgen_no_theme_pulsar_blackhole",],
+		"location_themes_blacklist": ["theme_already_occupied", "theme_already_colonized", "theme_hidden", "no_pulsar_blackhole"],
+		"location_entities": ["station","gas_giant","planet",],
+		"location_prioritizeUnexplored": true,
+		"location_defaultToAnyEntity": true,
+    },
+
 }

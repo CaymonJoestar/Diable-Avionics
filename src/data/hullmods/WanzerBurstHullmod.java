@@ -84,7 +84,7 @@ public class WanzerBurstHullmod extends BaseHullMod {
                     if (listeners.isEmpty()) {
                         target.addListener(new RDRepairRateDebuff(target));
                     } else {
-                        listeners.get(0).resetDur();
+                        listeners.get(0).resetDur(0);
                     }
                 }
             }

@@ -21,7 +21,7 @@ import java.util.List;
 import java.util.Random;
 
 
-import static com.sun.webpane.platform.ConfigManager.log;
+
 import static data.scripts.util.Diableavionics_stringsManager.txt;
 //import data.scripts.weapons.Diableavionics_derechoEffect;
 

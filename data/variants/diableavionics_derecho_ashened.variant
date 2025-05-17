@@ -1,0 +1,51 @@
+{
+  "variantId": "diableavionics_derecho_ashened",
+  "hullId": "diableavionics_derecho",
+  "displayName": "Ashened Kite",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": ["diableavionics_avionics",
+ "diableavionics_aquila"],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "sMods": [
+  "heavyarmor",
+  "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "diableavionics_srab"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "diableavionics_plover"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "diableavionics_recson",
+        "WS0004": "diableavionics_recson"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "diableavionics_burchel"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

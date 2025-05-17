@@ -1,6 +1,6 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
-diableavionics_arbitrator_wing,diableavionics_arbitrator_standard,"interceptor2, interceptor, high, diable_ship_bp",0,,5,6,CLAW,6000,250,-200,3,INTERCEPTOR,Rapid Interception,10,6000,,,,,,,,,,,,,7
-diableavionics_arbitratorZ_wing,diableavionics_arbitratorZ_rocketeer,"bomber4, bomber, high, diable_ship_bp",1,,6,12,BOX,4000,2000,300,3,BOMBER,Rocketeer,15,11000,,,,,,,,,,,,,7
+diableavionics_arbitrator_wing,diableavionics_arbitrator_standard,"arbitrator,interceptor2, interceptor, high, diable_ship_bp",0,,5,6,CLAW,6000,250,-200,3,INTERCEPTOR,Rapid Interception,10,6000,,,,,,,,,,,,,7
+diableavionics_arbitratorZ_wing,diableavionics_arbitratorZ_rocketeer,"arbitrator,bomber4, bomber, high, diable_ship_bp",1,,6,12,BOX,4000,2000,300,3,BOMBER,Rocketeer,15,11000,,,,,,,,,,,,,7
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 diableavionics_frost_wing,diableavionics_frost_Standard,"wanzer, fighter1, fighter, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",0,,6,8,CLAW,4000,500,,3,FIGHTER,Trooper,12.5,10000,,,,,,,,,,,,,1
 diableavionics_strife_wing,diableavionics_strife_Standard,"wanzer, fighter2, fighter, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",1,,7,12,BOX,4000,500,-100,2,FIGHTER,Gunner,15,11000,,,,,,,,,,,,,4
@@ -13,7 +13,7 @@ diableavionics_avalanche_wing,diableavionics_avalanche_variant,"wanzer, fighter3
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 diableavionics_valiant_wing,diableavionics_valiant_Standard,"wanzer, interceptor3, interceptor, high, rare_bp, rd_no_extra_craft",3,0.5,10,22,V,6000,500,-100,2,INTERCEPTOR,Commando,18,15000,,,,,,,,,,,,,3
-diableavionics_raven_wing,diableavionics_raven_Standard,"wanzer, fighter4, fighter, high, rare_bp, rd_no_extra_craft",3,0.5,12,26,BOX,4000,500,,1,FIGHTER,Heavy Trooper,25,13000,,,,,,,,,,,,,1
+diableavionics_raven_wing,diableavionics_raven_Standard,"wanzer, fighter4, fighter, high, rare_bp, rd_no_extra_craft",3,0.5,12,30,BOX,4000,500,,1,FIGHTER,Heavy Trooper,25,13000,,,,,,,,,,,,,1
 diableavionics_zephyr_wing,diableavionics_zephyr_beam,"wanzer, fighter4, fighter, high, diable_wanzer_bp, rare_bp, rd_no_extra_craft",3,0.5,8,20,BOX,4000,500,,1,FIGHTER,Marksman,20,14000,,,,,,,,,,,,,1
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,

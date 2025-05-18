@@ -241,7 +241,7 @@ Cicada Grenade Launcher,diableavionics_blizzaiaCicada,,,,500,,500,,,30,,,,,HIGH_
 #RAVEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Burchel (long delay),diableavionics_ravenhead,,,,600,250,,,,36,0,9,0.75,2,ENERGY,,,0,0,0.48,0.02,,,,,1000000,,,,,,,"PD,PD_ONLY,SYSTEM",,,,,,,,,,%s: Deals %s more damage to fighters and missiles.,Superior Lenses|25%,,,,
 Glowtusk Linear Rifle,diableavionics_ravenright,1,,2250,500,,250,,50,25,0,,,,HIGH_EXPLOSIVE,,,0,3,,,3,10,3,1,,850,,,350,,,SYSTEM,,,,,,,,,,,,,,,
-Grave HMC,diableavionics_ravenleft,1,,1750,550,,45,,10,30,0,,,,KINETIC,,,0,1,1,,1,10,0.5,3,,700,,,100,,,SYSTEM,,,,,,,,,,,,,,,
+Grave HMC,diableavionics_ravenleft,1,,1750,550,,45,,10,30,0,,,,KINETIC,,,0,0.5,1,,1,10,0.5,3,,700,,,100,,,SYSTEM,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #VALIANT WANZER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ILIS PD,diableavionics_valianthead,,,,500,150,,,,30,,,,,ENERGY,,,0.5,0.5,,,,,,,1600,1600,,,,,,"PD,PD_ONLY,SYSTEM",,,,,,,,,,,,,,,

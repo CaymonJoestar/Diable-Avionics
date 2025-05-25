@@ -81,7 +81,7 @@ public class DiableAvionicsMountBI extends BaseHullMod {
             return RANGE_BOOST + " " + txt("su");
         }
         if (index == 1) {
-            return 25 + txt("%");
+            return (int)(-RECOIL_REDUCTION) + txt("%");
         }
         if (index == 2) {
             return LARGE_MOUNT_EXTRA_RANGE_BOOST + " " + txt("su");

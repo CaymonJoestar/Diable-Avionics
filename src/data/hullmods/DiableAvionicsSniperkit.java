@@ -18,7 +18,7 @@ public class DiableAvionicsSniperkit extends BaseHullMod {
     private float REDUCED_RANGE =0.25f;
     private float SMOD_REDUCED_RANGE=0.75f;
 
-    public static Map mag = new HashMap();
+    public static Map<ShipAPI.HullSize, Float> mag = new HashMap<ShipAPI.HullSize, Float>();
     static {
         mag.put(ShipAPI.HullSize.FRIGATE, 10f);
         mag.put(ShipAPI.HullSize.DESTROYER, 20f);
@@ -36,16 +36,14 @@ public class DiableAvionicsSniperkit extends BaseHullMod {
                 continue;
             }
             if(stats.getVariant().getWingId(i).equals("diableavionics_warlust_wing")){
-               if(sMod){
-                   stats.getFighterWingRange().modifyMult(id, 0.25f);
-               }else{
-                   stats.getFighterWingRange().modifyMult(id, 0f);
-               }
+                if(sMod){
+                    stats.getFighterWingRange().modifyMult(id, SMOD_REDUCED_RANGE);
+                }else{
+                    stats.getFighterWingRange().modifyMult(id, REDUCED_RANGE);
+                }
             }
         }
-
     }
-
 
     @Override
     public void applyEffectsToFighterSpawnedByShip(ShipAPI fighter, ShipAPI ship, String id) {
@@ -54,13 +52,11 @@ public class DiableAvionicsSniperkit extends BaseHullMod {
             if(fighter.getWing().getWingId().equals("diableavionics_warlust_wing"))
             {
                 fighter.addTag(Tags.WING_STAY_IN_FRONT_OF_SHIP);
-                fighter.getMutableStats().getBallisticWeaponRangeBonus().modifyPercent(id,(Float)mag.get(ship.getHullSize()));
+                fighter.getMutableStats().getBallisticWeaponRangeBonus().modifyPercent(id, mag.get(ship.getHullSize()));
 //                List<WeaponAPI> Allweapon= fighter.getWingLeader().getAllWeapons();
 //                for(WeaponAPI w:Allweapon){
 //                    Global.getLogger(this.getClass()).info(w.getRange());
 //                }         used by debug
-
-                // fighter.addTag(Tags.WING_STAY_IN_FRONT_OF_SHIP);
             }
         }
     }
@@ -73,10 +69,10 @@ public class DiableAvionicsSniperkit extends BaseHullMod {
     }
 
     public String getDescriptionParam(int index, ShipAPI.HullSize hullSize) {
-        if (index == 0) return "" + ((Float) mag.get(ShipAPI.HullSize.FRIGATE)).intValue() + "%";
-        if (index == 1) return "" + ((Float) mag.get(ShipAPI.HullSize.DESTROYER)).intValue() + "%";
-        if (index == 2) return "" + ((Float) mag.get(ShipAPI.HullSize.CRUISER)).intValue() + "%";
-        if (index == 3) return "" + ((Float) mag.get(ShipAPI.HullSize.CAPITAL_SHIP)).intValue() + "%";
+        if (index == 0) return "" + (mag.get(ShipAPI.HullSize.FRIGATE)).intValue() + "%";
+        if (index == 1) return "" + (mag.get(ShipAPI.HullSize.DESTROYER)).intValue() + "%";
+        if (index == 2) return "" + (mag.get(ShipAPI.HullSize.CRUISER)).intValue() + "%";
+        if (index == 3) return "" + (mag.get(ShipAPI.HullSize.CAPITAL_SHIP)).intValue() + "%";
         if (index == 4) return "" + (int)((1-REDUCED_RANGE)*100)+ "%";
         return null;
     }

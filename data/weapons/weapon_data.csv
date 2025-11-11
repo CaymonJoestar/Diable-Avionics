@@ -229,7 +229,7 @@ Monofilament Blade,diableavionics_frostBlade,,,,20,500,,,,,,1,0.001,,HIGH_EXPLOS
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #STRIFE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 IBIS (mono-barrel),diableavionics_strifehead,,,,300,,40,,,90,0,,,,FRAGMENTATION,,,0,0.1,1,,0,12,1,20,,1000,,,10,,,"PD,PD_ONLY,SYSTEM",,,,,,,,,,,,,,,
-Grom Gatling Gun,diableavionics_strifegun,,,,700,,65,,,30,,10,6.923,10,FRAGMENTATION,,,0.25,0.25,99999,0.0722,1,10,1,6,,1500,,,100,,,"SYSTEM,PD_ALSO",,,,,,,,,,,,,,,
+Grom Gatling Gun,diableavionics_strifegun,,,,550,,65,,,30,,10,6.923,10,FRAGMENTATION,,,0.25,0.25,99999,0.0722,1,10,1,6,,1500,,,100,,,"SYSTEM,PD_ALSO",,,,,,,,,,,,,,,
 ,diableavionics_strifeTorso,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 ,diableavionics_strifeGlow,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,
 ,diableavionics_strifeRightArm,,,,1,1,,,,,,,,,,,,,10,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,

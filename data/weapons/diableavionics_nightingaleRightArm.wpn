@@ -1,0 +1,84 @@
+{
+  "id": "diableavionics_nightingaleRightArm",
+  "specClass": "projectile",
+  "projectileSpecId": "diableavionics_lazyhorn_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/da/ships/nightingale/diableavionics_nightingalerightarm.png",
+  "turretGlowSprite": "graphics/da/ships/nightingale/diableavionics_nightingale_lazyhorn_glow.png",
+  "hardpointSprite": "",
+  "glowColor": [
+    232,
+    128,
+    35,
+    255
+  ],
+  "turretOffsets": [
+    22,
+    1.5,
+    22,
+    6.5,
+    21.5,
+    7,
+    21.5,
+    2,
+    22,
+    2.5,
+    22,
+    7.5,
+    22,
+    4.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    20,
+    0,
+    100,
+    7,
+    190,
+    3,
+    270,
+    -7,
+    340,
+    -2,
+    400,
+    2,
+    500,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0.3,
+    0.2,
+    -0.1,
+    0,
+    0.1,
+    -0.2,
+    -0.3
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 15,
+    "particleSizeMin": 25,
+    "particleSizeRange": 75,
+    "particleDuration": 0.15,
+    "particleCount": 5,
+    "particleColor": [
+      200,
+      75,
+      209,
+      215
+    ]
+  },
+  "fireSoundOne": "diableavionics_lazyhorn_charge",
+  "fireSoundTwo": "diableavionics_lazyhorn_firing"
+}

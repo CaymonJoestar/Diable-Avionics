@@ -32,7 +32,7 @@ public class Diableavionics_longRangeAI implements ShipSystemAIScript{
         timer+=amount;
         if(timer>TICK){
             timer=0;
-            if(!system.isActive() && AIUtils.canUseSystemThisFrame(ship) && !AIUtils.getNearbyEnemies(ship, 8000).isEmpty() && AIUtils.getNearbyEnemies(ship, 4000).isEmpty()){
+            if(!system.isActive() && AIUtils.canUseSystemThisFrame(ship) && !AIUtils.getNearbyEnemies(ship, 3000).isEmpty()){
                 ship.useSystem();
             }
         }

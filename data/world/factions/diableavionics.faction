@@ -45,6 +45,7 @@
             "diableavionics_sleet":1,
             "diable_brisk":0.75,
             "diableavionics_versant":0.5,
+            "diableavionics_coldfront":0.75,
 
             "diableavionics_laminar":1,
             "diableavionics_shear":1,
@@ -120,6 +121,7 @@
             "diableavionics_vapor",
             "diable_brisk",
             "diableavionics_versant",
+            "diableavionics_coldfront",
 
             "diableavionics_laminar",
             "diableavionics_shear",
@@ -135,6 +137,7 @@
             "diableavionics_chinook",
             "diableavionics_stratus",
             "diableavionics_cirrus",
+            "diable_tidal",
 
             "diableavionics_haze",
             "diableavionics_daze",
@@ -160,6 +163,7 @@
             "diableavionics_vapor",
             "diable_brisk",
             "diableavionics_versant",
+            "diableavionics_coldfront",
 
             "diableavionics_laminar",
             "diableavionics_shear",
@@ -175,6 +179,7 @@
             "diableavionics_chinook",
             "diableavionics_stratus",
             "diableavionics_cirrus",
+            "diable_tidal",
 
             "diableavionics_haze",
             "diableavionics_daze",
@@ -205,6 +210,7 @@
             "diableavionics_frost_wing",
             "diableavionics_hoar_wing",
             "diableavionics_strife_wing",
+            "diableavionics_nightinghale_wing",
             "diableavionics_warlust_wing",
             "diableavionics_valiant_wing",
             "diableavionics_raven_wing",
@@ -224,6 +230,7 @@
             "diableavionics_frost_wing",
             "diableavionics_hoar_wing",
             "diableavionics_strife_wing",
+            "diableavionics_nightinghale_wing",
             "diableavionics_warlust_wing",
             "diableavionics_valiant_wing",
             "diableavionics_raven_wing",
@@ -253,6 +260,7 @@
             "diableavionics_winee",
             "diableavionics_glowfang",
             "diableavionics_graveac",
+            "diableavionics_nocturneDEM_small",
 
             "diableavionics_raptor",
             "diableavionics_recson2",
@@ -269,6 +277,7 @@
             "diableavionics_banish",
             "diableavionics_thrush",
             "diableavionics_artdeux",
+            "diableavionics_magicboxPod",
 
             "diableavionics_mostro",
             "diableavionics_hexafire2",

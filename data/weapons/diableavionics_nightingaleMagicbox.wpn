@@ -1,0 +1,45 @@
+{
+  "id": "diableavionics_nightingaleMagicbox",
+  "specClass": "projectile",
+  "projectileSpecId": "diableavionics_magicmissile",
+  "type": "MISSILE",
+  "size": "SMALL",
+  "turretSprite": "graphics/da/ships/nightingale/diableavionics_nightingaleMagicbox.png",
+  "hardpointSprite":"",
+  "hardpointGunSprite":"",	
+  "turretOffsets": [
+    -1,
+    0
+  ],
+  "turretAngleOffsets": [
+    180
+  ],
+  "hardpointOffsets": [
+    -1,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    180
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "SMOKE",
+  "autocharge": true,
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 14,
+    "cloudParticleCount": 2,
+    "cloudDuration": 1.4,
+    "cloudRadius": 11,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 0.33,
+    "blowbackLength": 33,
+    "blowbackSpread": 33,
+    "particleColor": [
+      190,
+      180,
+      160,
+      95
+    ]
+  },
+  "fireSoundTwo": "diableavionics_magic_firing"
+}

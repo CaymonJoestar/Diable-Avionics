@@ -2,7 +2,7 @@
   "hullName": "Storm",
   "hullId": "diableavionics_storm",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/da/ships/diableavionics_storm.png",
+  "spriteName": "graphics/da/ships/diableavionics_stormnewold.png",
   "style": "HIGH_TECH",
   "height": 308,
   "width": 115,
@@ -12,11 +12,12 @@
   "shieldRadius": 168,
   "viewOffset": 0,
   "builtInMods": [
-    #"diableavionics_avionics",\n
     "diableavionics_universaldecksExtra"
   ],
   "builtInWeapons": {
-    "WS0010": "diableavionics_microcluster_left"
+    "WS0006": "diableavionics_magicboxPodBI",
+    "WS0010": "diableavionics_microcluster_left",
+    "WS0011": "diableavionics_magicboxPodBI"
   },
   "weaponSlots": [
     {
@@ -123,6 +124,33 @@
         102, -21.5,
         -96, -2
       ]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [79, -6]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 180,
+      "locations": [-39, -18]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 0,
+      "locations": [-9, -18]
     }
   ],
   "engineSlots": [

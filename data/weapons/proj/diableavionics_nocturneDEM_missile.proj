@@ -1,0 +1,78 @@
+{
+	"id":"diableavionics_nocturneDEM_missile",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	#"missileType":"CIRCLE_TARGET",
+	"onFireEffect":"com.fs.starfarer.api.impl.combat.dem.DEMEffect",
+	"behaviorSpec":{"behavior":"CUSTOM",
+		#"circleRadius":[0,50],
+		#"angledApproachDist":[900,1200],
+		"minDelayBeforeTriggering":0,
+		"triggerDistance":[600,700],
+		"preferredMinFireDistance":[600,700],
+		"turnRateBoost":100,
+		#"turnRateMultOnSignal":0.05,
+		"targetingTime":0.9,
+		"firingTime":1.0,
+		"targetingLaserId":"targetinglaser3",
+
+		"targetingLaserFireOffset":[8,0,8,0,5,0,5,0],
+		"targetingLaserSweepAngles":[0,-7,0,7,0,-10,0,10],
+
+		"payloadWeaponId":"diableavionics_nocturneBeam_dem",
+		"targetingLaserRange":700,
+		"targetingLaserArc":10,
+		"bombPumped":true,
+		"snapFacingToTargetIfCloseEnough":true,
+		"fadeOutEngineWhenFiring":false;
+		"destroyMissleWhenDoneFiring":true,
+		"destroyedExplosionColor":[160,100,150,200],
+		
+		"withShapedExplosion":true,
+		"shapedExplosionNumParticles":15,
+		"shapedExplosionMinParticleDur":0.6,
+		"shapedExplosionMaxParticleDur":1.1,
+		"shapedExplosionMinParticleSize":25,
+		"shapedExplosionMaxParticleSize":50,
+		"shapedExplosionArc":45,
+		"shapedExplosionMinParticleVel":50,
+		"shapedExplosionMaxParticleVel":160,
+		"shapedExplosionColor":[160,100,150,130],
+		"shapedExplosionEndSizeMin":1,
+		"shapedExplosionEndSizeMax":2,
+		"shapedExplosionScatter":100,
+
+	},
+	"sprite":"graphics/da/missiles/diableavionics_nocturneDEM_missile.png",
+	"size":[11,20],	
+	"center":[5.5,10],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_NO_FF",
+	#"destroyedExplosionColor":[150,255,150,255],  # when the missile is destroyed by damage
+	"explosionColor":[53,42,205,1],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":120, # purely visual	
+	"engineSpec":{"turnAcc":420,
+				  "turnRate":140,
+				  "acc":1000,
+				  "dec":100},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-11, 0],
+				    #"style":"MISSILE_HIGH_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[180,71,71,255],
+						"contrailDuration":1,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailColor":[206,80,80,165],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":7.0,
+				    "length":40.0,
+				    "angle":180.0},
+				    ]
+}

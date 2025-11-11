@@ -60,6 +60,11 @@ diable_brisk,SHIP,"A heavy duty frigate made to last, carrying an above average 
 
 The Brisk is one of the newer ship designs produced by the Diable Avionics Corporation, a post-collapse design, the unusual shape and asymmetrical look compared to the previously seen frigates along with the weaker choice of armaments makes it stands out as the ""ugly duckling"" of the bunch, but any captain or officer stationed on a Brisk-class ship has been able to attest for the durability and reliability of the ship despite this.",,,
 ,,,,,
+# COLDFRONT,,,,,
+,,,,,
+,,,,,
+diableavionics_coldfront,SHIP,"The Coldfront class was developed by Diable Avionics as a way to circumvent the Domain’s restriction on the megacorporation’s ability to develop military grade ships.Ostensibly a “advanced survey ship”, it incorporated the signature Magicbox Missile Launcher for self defence and comes equipped with excellent survey and Electronic warfare systems.The most outstanding aspect of the cold front class is it’s modular hull that allow it to be one of the few smaller ship that can change between multiple ship system.
+The appearance of the cold front is very deceptive, with limited weapon slots on a unimpressive size hull and armor. All of these helped it to deceive the domain technical inspector. However, with slight modification , the Coldfront can serve as the vanguard of a Diable Avionic fleet. Ironically, after Diable Avionics went into hiding following the collapse, most Coldfronts in circulation maintained their civilian spec, making them one of the more accessible frigates for the average starfaring captain ",,,
 # VERSANT,,,,,
 ,,,,,
 ,,,,,
@@ -413,6 +418,8 @@ diableavionics_raven,SHIP,"The Type-11 Raven is the heaviest 9th generation stri
 While designed as a triple-seater craft to help spread the workload, the Raven can still be maned single-handedly by a 9th gen Wanzer pilot thanks to the S-type neural interface. Even with the extra volume and mass of this design, engineers were unable to incorporate both a TX-5 class shield emitter alongside a displacement system, the latter being ultimately kept to prevent outmaneuvering by enemy fighter forces. Mass production of such an advanced craft is not practical and thus comes with an eyebrow-raising price tag.",,,
 ,,,,,
 ,,,,,
+diableavionics_nightingale,SHIP,"The gentile name of ""Nightingale"" doesn't match the lumbering brutality of the 9th generation Wanzer WAM-12. A sister model of the Raven, the Nightingale utilizes advanced Wanzer technology to equip a compact Nocturne EMP Array and a compact Lazyhorn Projector. The former providing the wanzer with powerful shield suppression capability, able to strike at any approaching foes, while the Lazyhorn easily shred waves of incoming missile and fighters. Making the Nightingale stand out as one of the best wanzers around in the 9th generation as it maintain an area of point defense and fire support around its allies
+","The Nightingale's unique cyclopean head design was rumored to be based on a old popular antagonist design in a old show from the Pre-Domain era. Reports indicate that a sharp avian screech can sometimes be heard in the vacuum of space in the heat of battle when the Nightingale's reactor reaches high energy output. It is unclear whetever or not this is due to the ""Vibration caused by energized particle gliding across metal"" statement given by Diable Avionics or a part of a wider psy-op against the enemies of the corp",,
 ,,,,,
 ,,,,,
 ####################,,,,,
@@ -631,6 +638,13 @@ diableavionics_magicbox,WEAPON,"A straightforward missile armed with a directed 
 
 The initial requirement specifications asked for a hybrid interception vehicle able to destroy up to ""Harpoon"" types of ordnances but also threaten light fighters. However designing a warhead light enough to not hamper the performances of the missile but strong enough to defeat the armor of a strike-craft proved to be out of reach of the research bureau. Despite a non-negligible psychological impact on the accuracy of the pilots submitted to a hail of those lightning-fast missiles, the lack of effective damage to the spacecraft itself and the wide windows of vulnerability opened by wasting the ready-rack ammunition was deemed unacceptable. Thus the target selection AI has been set to only consider unarmored missile threats.",Point Defense,,
 ,,,,,
+diableavionics_magicboxPod,WEAPON,"A straightforward missile armed with a directed blast of fragmentation warheads, solely intended for high-speed munition interception. A moderate store of ready-to-fire missiles allows for the nullification of multiple threats in short successions.
+
+While research into the increasing the effectivness of the Magicbox missiles has continuted, the fruits of such labor on display of with the Magicbox pod, boasting 2 launchers and slightly more powerful missiles and range,etc. It still falls into the pitfalls of its smaller versions with regards to general wastefulness even in the best cases",,,
+,,,,,
+diableavionics_magicboxPodBI,WEAPON,"A straightforward missile armed with a directed blast of fragmentation warheads, solely intended for high-speed munition interception. A moderate store of ready-to-fire missiles allows for the nullification of multiple threats in short successions.
+
+An downsized version of the regular magicbox pod, it lacks the many improvements found on the normal version due to rushed intergation and less quality parts used, even the missile it fires were not spared from this fate",,,
 ,,,,,
 # MICROMISSILES,,,,,
 ,,,,,
@@ -643,23 +657,23 @@ diableavionics_microbuiltin,WEAPON,"Frequently used on most Diable Avionic's pro
 
 These simple missiles rely on randomized target interception algorithms to confuse enemy point defenses: they assist the fleet's Wanzer wings in accomplishing their mission while being exposed to minimal return fire and they cover the approach of more dangerous ordnances. Furthermore they subtly enhance the fleet in every aspect, forcing the enemy to constantly keep their shield up at all times, limiting their maneuverability. While using a few of them might be considered a waste of resources, their strength rises sharply with numbers, and their virtually unlimited stock means they are a constant drain on the enemy for the whole battle duration.",Fire Support,,
 ,,,,,
-diableavionics_microarray,WEAPON,"Built into the flank of the Maelstrom-class, this twenty tubes wide Micro-Missile Array supplements its main armaments with a flurry of Diable Avionic's signature ordinance, bringing havoc and confusion in the enemy's point-defense grid and chipping away armor at a steady rate.
+diableavionics_microarray,WEAPON,"Built into the flank of the Maelstrom-class, this thirty tubes wide Micro-Missile Array supplements its main armaments with a flurry of Diable Avionic's signature ordinance, bringing havoc and confusion in the enemy's point-defense grid and chipping away armor at a steady rate.
 
 These simple missiles rely on randomized target interception algorithms to confuse enemy point defenses: they assist the fleet's Wanzer wings in accomplishing their mission while being exposed to minimal return fire and they cover the approach of more dangerous ordnances. Furthermore they subtly enhance the fleet in every aspect, forcing the enemy to constantly keep their shield up at all times, limiting their maneuverability. While using a few of them might be considered a waste of resources, their strength rises sharply with numbers, and their virtually unlimited stock means they are a constant drain on the enemy for the whole battle duration.",Fire Support,,
 ,,,,,
-diableavionics_microcluster,WEAPON,"Built into the flank of the Pocket-Gust-class, this six tubes wide Micro-Missile Array supplements its main armaments with a flurry of Diable Avionic's signature ordinance, bringing havoc and confusion in the enemy's point-defense grid and chipping away armor at a steady rate.
+diableavionics_microcluster,WEAPON,"Built into the flank of the Pocket-Gust-class, this eight tubes wide Micro-Missile Array supplements its main armaments with a flurry of Diable Avionic's signature ordinance, bringing havoc and confusion in the enemy's point-defense grid and chipping away armor at a steady rate.
 
 These simple missiles rely on randomized target interception algorithms to confuse enemy point defenses: they assist the fleet's Wanzer wings in accomplishing their mission while being exposed to minimal return fire and they cover the approach of more dangerous ordnances. Furthermore they subtly enhance the fleet in every aspect, forcing the enemy to constantly keep their shield up at all times, limiting their maneuverability. While using a few of them might be considered a waste of resources, their strength rises sharply with numbers, and their virtually unlimited stock means they are a constant drain on the enemy for the whole battle duration.",Fire Support,,
 ,,,,,
-diableavionics_microcluster2,WEAPON,"Built into the back of the Daze-class, this six tubes wide Micro-Missile Array supplements its main armaments with a flurry of Diable Avionic's signature ordinance, bringing havoc and confusion in the enemy's point-defense grid and chipping away armor at a steady rate.
+diableavionics_microcluster2,WEAPON,"Built into the back of the Daze-class, this eight tubes wide Micro-Missile Array supplements its main armaments with a flurry of Diable Avionic's signature ordinance, bringing havoc and confusion in the enemy's point-defense grid and chipping away armor at a steady rate.
 
 These simple missiles rely on randomized target interception algorithms to confuse enemy point defenses: they assist the fleet's Wanzer wings in accomplishing their mission while being exposed to minimal return fire and they cover the approach of more dangerous ordnances. Furthermore they subtly enhance the fleet in every aspect, forcing the enemy to constantly keep their shield up at all times, limiting their maneuverability. While using a few of them might be considered a waste of resources, their strength rises sharply with numbers, and their virtually unlimited stock means they are a constant drain on the enemy for the whole battle duration.",Fire Support,,
 ,,,,,
-diableavionics_microcluster_left,WEAPON,"Built into the flank of the Storm-class, this six tubes wide Micro-Missile Array supplements its main armaments with a flurry of Diable Avionic's signature ordinance, bringing havoc and confusion in the enemy's point-defense grid and chipping away armor at a steady rate.
+diableavionics_microcluster_left,WEAPON,"Built into the flank of the Storm-class, this eight tubes wide Micro-Missile Array supplements its main armaments with a flurry of Diable Avionic's signature ordinance, bringing havoc and confusion in the enemy's point-defense grid and chipping away armor at a steady rate.
 
 These simple missiles rely on randomized target interception algorithms to confuse enemy point defenses: they assist the fleet's Wanzer wings in accomplishing their mission while being exposed to minimal return fire and they cover the approach of more dangerous ordnances. Furthermore they subtly enhance the fleet in every aspect, forcing the enemy to constantly keep their shield up at all times, limiting their maneuverability. While using a few of them might be considered a waste of resources, their strength rises sharply with numbers, and their virtually unlimited stock means they are a constant drain on the enemy for the whole battle duration.",Fire Support,,
 ,,,,,
-diableavionics_microarrayM,WEAPON,"Built into the flanks of the Pandemonium-class, this ten tubes Micro-Missile Array supplements its main armaments with a flurry of Diable Avionic's signature ordinance, bringing havoc and confusion in the enemy's point-defense grid and chipping away armor at a steady rate.
+diableavionics_microarrayM,WEAPON,"Built into the flanks of the Pandemonium-class, this twenty tubes Micro-Missile Array supplements its main armaments with a flurry of Diable Avionic's signature ordinance, bringing havoc and confusion in the enemy's point-defense grid and chipping away armor at a steady rate.
 
 These simple missiles rely on randomized target interception algorithms to confuse enemy point defenses: they assist the fleet's Wanzer wings in accomplishing their mission while being exposed to minimal return fire and they cover the approach of more dangerous ordnances. Furthermore they subtly enhance the fleet in every aspect, forcing the enemy to constantly keep their shield up at all times, limiting their maneuverability. While using a few of them might be considered a waste of resources, their strength rises sharply with numbers, and their virtually unlimited stock means they are a constant drain on the enemy for the whole battle duration.",Fire Support,,
 ,,,,,
@@ -693,6 +707,8 @@ The FV-16 ""Plover"" Heavy Rocket is a relatively simple implementation of the n
 ,,,,,
 diableavionics_thrush,WEAPON,A hybrid dual-rail long-range interception system. Launches a pair of fast missiles equipped with a powerful main warhead. It can also deploy eight Micro-Missiles as a backup system should the main carrier fail to successfully intercept its intended target.,Fire Support,,
 ,,,,,
+,,,,,
+diableavionics_nocturneDEM_small,WEAPON,"The product of many cycles poured into the R&D of reverse engineering DEM technology and incorporating it into the extenstive arsenal of Diable Avionic's, The Nocturne DEM launcher is a testament to Diable Avionic's brilliant R&D as it manages to condense the powerful kinetic burst of the Nocturne EMP Array into a missile payload allowing many ships that normally may be unable to equip themselves with a Nocturne EMP Array normally are now able to, albeit with careful planning with such limited payload, bring the power of such an powerful tool to turn the tide of an battle",,,
 ,,,,,
 # SPECIAL,,,,,
 # SPECIAL,,,,,
@@ -809,6 +825,8 @@ diableavionics_splitter,SHIP_SYSTEM,"And Dah' said: I shall cut thy army in half
 ,,,,,
 diableavionics_capacitors,SHIP_SYSTEM,Connects the shield systems to a secondary array of Plasma Capacitors able to store great quantities of flux for a short amount of time. Effectively increases the damage absorption of the shield tenfold.,Defensive,Increases the shield efficiency tenfold for a very short while.,
 ,,,,,
+diableavionics_overload,SHIP_SYSTEM,"The Nightingale can overload her reactor for a short period of time, granting valuable mobility and overwhelming firepower. Although unintentional, the sharp chirping sound when the reactor is fully overloaded is a lingering fear and morale-destroying effect on any enemy that survives her presence.",,,
+,,,,,
 diableavionics_draftrepairs,SHIP_SYSTEM,"Circulate an electro-ceramic liquid within a mesh of conduits embedded withing the armor layer along with an electric current. At every armor breach the liquid spills out and start to cure under the electric charge, effectively restoring some hull integrity. Interrupting the process leads to an obstruction of the conduits without any meaningful strengthening of the structure, preventing any future improvement. Due to the electrification, weapons have to be temporarily disabled, although additional power can be fed to the engines in the meantime.",Defensive,"Restore up to half the lost hull integrity since the last use, disable the weapons but increases the ship's acceleration.",
 ,,,,,
 diableavionics_unlockedFlicker,SHIP_SYSTEM,"A considerably improved phase skimmer, providing short-ranged jumps forward in rapid successions at the cost of producing hard flux. Each teleport releases damaging EMP arcs at nearby targets, destroying projectiles and damaging enemy ships.",Teleporter,Allows instant short-range relocation toward the current velocity vector with a damaging burst of EMP arcs that also destroy projectiles. Holds many charges that replenish at a rapid pace.,
@@ -816,6 +834,7 @@ diableavionics_citadel,SHIP_SYSTEM,"Divert all power to weapons computers and sh
 diableavionics_temporalshell,SHIP_SYSTEM,A Temporal Shell system licensed before the collapse offering slightly higher time dilation rates for shorter periods.,Special,Speeds up the flow of time on board the ship for a very short while. Holds two charges and generates a small amount of hard flux when used.,
 diableavionics_circus,SHIP_SYSTEM,Launches a large salvo of Micro-Missiles at all targets in a large area around the ship.,Special,Launches a large salvo of Micro-Missiles at all targets in a large area around the ship.,
 ,,,,,
+diableavionics_longRange,SHIP_SYSTEM,"Slows the ship down as power is diverted from the engines to the ship's combat systems, increasing the damage and range of all energy and ballistic weaponry while also providing vital intel to the ship's fighter wings, increasing their speed and max engagement range for a time",,,
 #DEPRECATED,,,,,
 ,,,,,
 diableavionics_draftarmor,SHIP_SYSTEM,Armor of high durability protects the front of the ship from all known attacks.,Drones,Extra durable armor protects the front from all known attacks.,

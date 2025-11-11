@@ -3,6 +3,7 @@ package data.scripts.world.systems;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
+import com.fs.starfarer.api.impl.campaign.ids.Entities;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
 import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
 import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
@@ -107,6 +108,15 @@ public class Diableavionics_outerTerminus implements SectorGeneratorPlugin {
                 250
         );
         ach2.setCustomDescriptionId("diableavionics_prison");
+
+
+        // Anataeus Gate
+        SectorEntityToken gate = system.addCustomEntity("Anataeus_gate", // unique id
+                "Anataeus Gate", // name - if null, defaultName from custom_entities.json will be used
+                Entities.INACTIVE_GATE, // type of object, defined in custom_entities.json
+                null); // faction
+        gate.setCircularOrbit(star, 160, 4600, 400);
+        gate.setCustomDescriptionId("diableavionics_gate");
 
         //3750
         //ASTEROID BELT

@@ -21,6 +21,10 @@
             "diableavionics_sleet_standard":3,
             "diableavionics_sleet_support":3,
 
+            "diableavionics_coldfront_standard":4,
+            "diableavionics_coldfront_Escort":4,
+            "diableavionics_coldfront_Support":4,
+
             "diable_brisk_standard":2,
             "diable_brisk_escort":2,
             "diable_brisk_support":2,
@@ -65,6 +69,7 @@
             "diableavionics_miniGust_support":2,	
             "diableavionics_miniGust_beamer":2,	
             "diableavionics_miniGust_pd":2,
+            "diableavionics_miniGust_Escort":2,
 
             "diableavionics_stratus_p_assault":2,
             "diableavionics_stratus_p_combat":2,
@@ -104,6 +109,7 @@
             "diableavionics_gust_sentinel":3,
             "diableavionics_gust_standard":3,	
             "diableavionics_gust_missile":2,
+            "diableavionics_gust_support":2,
 
             "diableavionics_rime_p_breach":3,
             "diableavionics_rime_p_standard":4,

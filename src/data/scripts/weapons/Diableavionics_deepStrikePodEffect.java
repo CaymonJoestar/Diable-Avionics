@@ -162,7 +162,7 @@ public class Diableavionics_deepStrikePodEffect implements EveryFrameWeaponEffec
                 clock -= (ANIMATION.size() - 1);
             }
             float mult=-1;
-            if(ANIMATION.get(Math.round(clock))>0){
+            if(ANIMATION.get((int)(clock))>0){
                 mult=1;
             }
 

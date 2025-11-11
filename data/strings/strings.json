@@ -100,6 +100,24 @@
 				"hm_gantry_s02_standby":"ON STANDBY",
 				"hm_gantry_s02_active":"OPERATIONAL",
 
+				"hm_tooltip_title_specific": "Details",
+
+				"hm_switchsub_cf01":"The Coldfront-class frigate pride itself on its modularity of its hull, this allows the frigate to select an additional ship system in addtion to its main ship system.",
+                "hm_switchsub_cf02":"The Coldfront's current system is a %s",
+                "hm_switchsub_cf02A_hl":"Arc Burst Emitter",
+                "hm_switchsub_cf02B_hl":"Frontline AWACS",
+
+                "hm_switchsub_cf03A01":"An extra arc capacitor and a burst emp arc emitter are integrated into the ship's hull, upon activation, the emitter will be deployed from the ship and strike targets within 90° of its arc of fire.",
+                "hm_switchsub_cf03A02":"The arcs have an effective range of %s and deals %s emp damage and %s fragmention damage per arc.",
+
+                "hm_switchsub_cf03B01":"A small but functional AWACS module is installed onto the ship, allowing an officer and his crew to provide commands and additional support for nearby wanzer fighter pilots, significantly improving combat effectiveness.",
+                "hm_switchsub_cf03B02":"Provides a boost to all wanzers within %s range, increasing their damage and max speed by %s, based on the officer's level.",
+                "hm_switchsub_cf03B03":"\nAt max level, a level 5 officer will provide an boost of %s",
+                "hm_pressleft":"\nHold the left arrow key and left click the hullmod icon to swap ship systems.",
+
+               "subsystem_arc_01":"Arc Burst Emmitter",
+               "subsystem_awacs_01":"Frontline AWACS",
+
 				"hm_cc_1":"Optimized Navigation Profile",
 
                 "stm_repair0":"Repairs in progress",

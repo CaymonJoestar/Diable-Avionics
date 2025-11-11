@@ -724,6 +724,34 @@
             {"file":"sounds/itanomusic/DA_missile_massacre_DEATH.ogg","pitch":1, "volume":1}
         ],
 
+		"diableavionics_nocturne_demlauncher_fire":[
+    		{"file":"sounds/diablefx/da_nocturne_demlauncher_fire.ogg","pitch":1.0, "volume":0.35},
+    		{"file":"sounds/diablefx/da_nocturne_demlauncher_fire.ogg","pitch":0.97, "volume":0.35},
+    		{"file":"sounds/diablefx/da_nocturne_demlauncher_fire.ogg","pitch":1.03, "volume":0.35}
+    ],
+    	"diableavionics_nocturne_dem_charge":[
+        {"file":"sounds/diablefx/da_nocturne_dem_charge.ogg","pitch":1.0, "volume":0.35},
+        {"file":"sounds/diablefx/da_nocturne_dem_charge.ogg","pitch":0.97, "volume":0.35},
+        {"file":"sounds/diablefx/da_nocturne_dem_charge.ogg","pitch":1.03, "volume":0.35}
+    ],
+
+        "diableavionics_nocturne_dem_fire":[
+                {"file":"sounds/diablefx/da_nocturne_dem_fire.ogg","pitch":1.0, "volume":0.80},
+                {"file":"sounds/diablefx/da_nocturne_dem_fire.ogg","pitch":0.97, "volume":0.80},
+                {"file":"sounds/diablefx/da_nocturne_dem_fire.ogg","pitch":1.03, "volume":0.80}
+            ],
+
+			"diableavionics_awacs_loop":[
+    		{"file":"sounds/diablefx/da_awacs_loop.ogg","pitch":1.05, "volume":1},
+    		{"file":"sounds/diablefx/da_awacs_loop.ogg","pitch":1.0, "volume":1},
+    		{"file":"sounds/diablefx/da_awacs_loop.ogg","pitch":0.95, "volume":1}
+    	],
+	"diableavionics_overload_use":[
+			{"file":"sounds/diablefx/da_nightingale_howling.ogg","pitch":1.0, "volume":0.85},
+			{"file":"sounds/diablefx/da_nightingale_howling.ogg","pitch":0.9, "volume":1.0},
+			{"file":"sounds/diablefx/da_nightingale_howling.ogg","pitch":0.7, "volume":0.9}
+		],
+
 #MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_MUSIC_
 
 	"music":{

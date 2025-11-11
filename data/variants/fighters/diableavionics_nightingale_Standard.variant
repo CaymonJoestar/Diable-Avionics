@@ -1,0 +1,42 @@
+{
+  "displayName": "9th gen Wanzer",
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "hullId": "diableavionics_nightingale",
+  "hullMods": [
+    "diableavionics_wanzer",
+    "autorepair"
+  ],
+  "quality": 0,
+  "variantId": "diableavionics_nightingale_Standard",
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "diableavionics_nightingaleLeftArm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "diableavionics_nightingaleRightArm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "diableavionics_nightingaleHead",
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "diableavionics_nightingaleMagicbox"
+      }
+    }
+  ]
+}

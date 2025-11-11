@@ -1,0 +1,40 @@
+{
+  "variantId": "diableavionics_coldfront_Support",
+  "hullId": "diableavionics_coldfront",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "magazines",
+    "extendedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "diableavionics_lazyhorn"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "diableavionics_graveac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "diableavionics_magicboxPodbuiltin"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

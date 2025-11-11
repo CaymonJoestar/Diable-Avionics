@@ -1,0 +1,57 @@
+{
+  "id": "diableavionics_nightingaleLeftArm",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "beamEffect": "data.scripts.weapons.Diableavionics_nocturneEffect",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/da/ships/nightingale/diableavionics_nightingaleLeftArm.png",
+  "turretGlowSprite": "graphics/da/ships/nightingale/diableavionics_nightingale_nocturne_glow.png",
+  "hardpointSprite":"",
+  "hardpointGunSprite":"",	
+  "glowColor": [
+    200,
+    100,
+    160,
+    200
+  ],
+  "hitGlowRadius": 75,
+  "turretOffsets": [
+    15,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets":[20, 3.5],
+  "hardpointAngleOffsets":[0],
+  "fringeColor": [
+    25,
+    55,
+    200,
+    50
+  ],
+  "coreColor": [
+    255,
+    125,
+    225,
+    200
+  ],
+  "width": 18,
+  "textureType": [
+    "graphics/fx/beamfringec.png",
+    "graphics/da/fx/nocturnebeamtexture.png"
+  ],
+  "textureScrollSpeed": 150,
+  "pixelsPerTexel": 4,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundOne": "diableavionics_nocturne_fire",
+  "fireSoundTwo": "diableavionics_nocturne_loop"
+}

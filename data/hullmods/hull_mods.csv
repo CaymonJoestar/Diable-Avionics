@@ -7,7 +7,7 @@ Advanced Avionics,diableavionics_avionics,4,0.33,Diable Avionics,"no_build_in, r
 Resilient Frame,diableavionics_wanzer,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsWanzer,"Wanzers are exceptionally durable small crafts, with reinforced internals and tripe redundant systems. They get %s resistance to EMP, plus their weapons and engines are %s less likely to fail.",Gives Wanzers a %s resitance to EMP and reduce the damage taken to their weapons and engines by %s .,,graphics/da/hullmods/diableavionics_quantumsensor.png
 ,,,,,,,,,,,,,,,,,,,
 Sniper kit,diableavionics_sniperkit,2,,Diable Avionics,req_spaceport,Fighters,15000,,,,3,4,6,10,data.hullmods.DiableAvionicsSniperkit,"A special upgrade kit to uiltize the support ability of the Warlust wanzer fighter,this kit contains special ammo and next gen laser aim-sight for the DMR.
-Comes equipped with a short range linked targeting core that allows the Warlust wanzer to increase their targeting range along with their carrier.
+Comes equipped with a short range linked targeting core that allows the Warlust wanzer to increase their targeting range.
 All Warlust wanzer fighters carried by their respective carrier get same range bonus as its carrier(%s/%s/%s/%s,by hullsize), while making the Warlust's and any accompanying fighters engage range %s.","Turn warlust into ""Supporter wings"" role,and gain extra range.
  ",Only reduced %s Warlust`s engaging range instead of %s.,graphics/da/hullmods/dibaleavionics_sniperkit.png
 ,,,,,,,,,,,,,,,,,,,
@@ -15,6 +15,7 @@ Cramped Hull,diableavionics_cramped,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvi
 ,,,,,,,,,,,,,,,,,,,
 Oversized Hull,diableavionics_oversized,,,,,,,,TRUE,,0,0,0,0,data.hullmods.DiableAvionicsOversized,This ship is abnormally large which creates a logistical nightmare when it needs to be readied for combat. Increases CR recovery cost by %s.,Increases CR recovery cost by %s.,,graphics/da/hullmods/diableavionics_oversized.png
 ,,,,,,,,,,,,,,,,,,,
+Modular Ship System,diableavionics_switchsubsystem,,,Diable Avionics,no_build_in,,,,TRUE,,0,0,0,0,data.hullmods.DiableaAvionicsSwitchsubsystem,A series of subsystems installed onto the Coldfront-class frigate that allows it to switch inbetween its 2 ship systems to quickly adept to the shifting needs of the battlefield in small and large fleets alike,,,graphics/da/hullmods/diableavionics_switchsubsystem.png
 ,,,,,,,,,,,,,,,,,,,
 Dampened Mounts,diableavionics_mountBI,4,,Diable Avionics,,,,TRUE,,,0,0,0,0,data.hullmods.DiableAvionicsMountBI,"The ship's weapon emplacements are designed around strengthened recoil dampeners, enabling projectile weapons to fire at a marginally increased range of %s with a %s reduction in recoil. Projectile weapons in large slots enjoy an extended range of %s range instead.",,"The ship's weapon emplacements are redesigned around installing Diable Avionics weaponry, reducing the OP cost by %s/%s/%s according to size for ballistic and energy weapons from the corporation.
 However, such a complex modification raises the deployment point cost of the ship by %s/%s/%s/%s according to the ship's size.",graphics/da/hullmods/diableavionics_mount.png

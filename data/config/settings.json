@@ -68,7 +68,8 @@
 
       "DIAMOND": "graphics/da/fx/da_targetingDiamond.png",
       "RING": "graphics/da/fx/da_targetingRing.png",
-
+      "DIAMONDAWACS": "graphics/da/fx/da_targetingDiamondAWACS.png",
+      
       "DS_doorUp": "graphics/da/ships/station/diableavionics_deepStrikeDoorUp.png",
       "DS_doorLeft": "graphics/da/ships/station/diableavionics_deepStrikeDoorLeft.png",
       "DS_doorRight": "graphics/da/ships/station/diableavionics_deepStrikeDoorRight.png",

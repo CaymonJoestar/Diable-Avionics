@@ -110,14 +110,6 @@ public class Diableavionics_outerTerminus implements SectorGeneratorPlugin {
         ach2.setCustomDescriptionId("diableavionics_prison");
 
 
-        // Anataeus Gate
-        SectorEntityToken gate = system.addCustomEntity("Anataeus_gate", // unique id
-                "Anataeus Gate", // name - if null, defaultName from custom_entities.json will be used
-                Entities.INACTIVE_GATE, // type of object, defined in custom_entities.json
-                null); // faction
-        gate.setCircularOrbit(star, 160, 4600, 400);
-        gate.setCustomDescriptionId("diableavionics_gate");
-
         //3750
         //ASTEROID BELT
         system.addAsteroidBelt(star, 750, 3750, 512, 310, 330);

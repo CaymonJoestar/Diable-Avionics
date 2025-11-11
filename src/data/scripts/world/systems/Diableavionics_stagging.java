@@ -50,6 +50,13 @@ public class Diableavionics_stagging {
         float angle = (float) Math.random() * 360;
         DAstation.setCircularOrbitPointingDown(star, angle, 900, 45);
 
+        // Anataeus Gate
+        SectorEntityToken gate = system.addCustomEntity("Anataeus_gate", // unique id
+                "Anataeus Gate", // name - if null, defaultName from custom_entities.json will be used
+                Entities.INACTIVE_GATE, // type of object, defined in custom_entities.json
+                null); // faction
+        gate.setCircularOrbit(star, 190, 1700, 45);
+
         //JUMP POINT
         JumpPointAPI jumpPoint = Global.getFactory().createJumpPoint("99_jumpPoint",
                 txt("star_B_jp_0")

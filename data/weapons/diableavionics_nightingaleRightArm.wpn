@@ -4,7 +4,7 @@
   "projectileSpecId": "diableavionics_lazyhorn_shot",
   "type": "ENERGY",
   "size": "MEDIUM",
-  "turretSprite": "graphics/da/ships/nightingale/diableavionics_nightingalerightarm.png",
+  "turretSprite": "graphics/da/ships/nightingale/diableavionics_nightingaleRightArm.png",
   "turretGlowSprite": "graphics/da/ships/nightingale/diableavionics_nightingale_lazyhorn_glow.png",
   "hardpointSprite": "",
   "glowColor": [

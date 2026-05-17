@@ -119,7 +119,6 @@
             "diableavionics_rime_m_standard":3,
             "diableavionics_rime_m_assault":2,
             "diableavionics_rime_m_advanced":2,
-
 	},
 	"combatCapital":{
             "diableavionics_pandemonium_willBreaker":2,	
@@ -132,6 +131,14 @@
             "diableavionics_maelstrom_beamer":2,			
             "diableavionics_maelstrom_brawler":2,		
             "diableavionics_maelstrom_vanguard":3,	
+
+            "diable_tornadop_standard":3,
+            "diable_tornadop_support":2,
+            "diable_tornadop_escort":2,
+
+            "diable_dustdevil_standard":3,
+            "diable_dustdevil_support":2,
+            "diable_dustdevil_dem":2,
 	},
 	
 	
@@ -149,6 +156,9 @@
             "diableavionics_rime_breach":3,
             "diableavionics_rime_standard":4,
             "diableavionics_rime_support":3,
+            "diable_tornado_closerange":2,
+            "diable_tornado_beam":3,
+            "diable_tornado_escort":3,
 	},
 	
 	"civilianRandom":{
@@ -209,6 +219,9 @@
             "diableavionics_rime_standard":4,
             "diableavionics_rime_support":3,
             "diableavionics_rime_breach":3,
+            "diable_tornado_closerange":1,
+            "diable_tornado_beam":2,
+            "diable_tornado_escort":2,
 	},
 	
 	"tankerSmall":{

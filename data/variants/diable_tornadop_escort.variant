@@ -1,0 +1,79 @@
+{
+  "variantId": "diable_tornadop_escort",
+  "hullId": "diable_tornadop",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0016": "heavyac"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "heavymauler",
+        "WS0019": "heavymauler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "flak",
+        "WS0004": "flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "vulcan",
+        "WS0012": "vulcan",
+        "WS0013": "vulcan",
+        "WS0014": "flak",
+        "WS0015": "flak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "atropos",
+        "WS0005": "atropos",
+        "WS0006": "atropos",
+        "WS0007": "atropos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "diableavionics_micromissile",
+        "WS0008": "diableavionics_micromissile",
+        "WS0009": "diableavionics_micromissile",
+        "WS0010": "diableavionics_micromissile"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

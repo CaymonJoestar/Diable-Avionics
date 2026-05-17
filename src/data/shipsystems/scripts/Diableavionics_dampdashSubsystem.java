@@ -24,8 +24,8 @@ public class Diableavionics_dampdashSubsystem extends MagicSubsystem {
     private final Integer ACCEL_BUFF = 200;
     private final Integer DECCEL_BUFF = 300;
     private final Integer SPEED_BUFF = 200;
-    private final Float DAMAGE_RESISTANCE = 0.2f;
-    private int BASE_MAX_CHARGES = 3;
+    private final Float DAMAGE_RESISTANCE = 0.5f;
+    private int BASE_MAX_CHARGES = 2;
     private final IntervalUtil tick = new IntervalUtil(0.05f,0.05f);
     private static final Color engineColor = new Color(0x00FF80);
     private float degress =0f;
@@ -62,7 +62,7 @@ public class Diableavionics_dampdashSubsystem extends MagicSubsystem {
 
     @Override
     public float getBaseChargeRechargeDuration() {
-        return 5f;
+        return 10f;
     }
 
 

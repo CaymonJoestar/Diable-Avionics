@@ -1,0 +1,77 @@
+{
+  "variantId": "diable_dustdevil_standard",
+  "hullId": "diable_dustdevil",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 24,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "expanded_deck_crew",
+    "diableavionics_armorshield"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 010": "diableavionics_magicbox",
+        "WS 011": "diableavionics_magicbox"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "diableavionics_artdeux"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "diableavionics_banish"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "diableavionics_opfergv"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "diableavionics_raptor",
+        "WS 007": "diableavionics_raptor"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "diableavionics_microbuiltin",
+        "WS 003": "diableavionics_micromissile"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "diableavionics_ibis",
+        "WS 002": "diableavionics_ibis",
+        "WS 009": "diableavionics_microcluster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "diableavionics_strife_wing",
+    "diableavionics_strife_wing",
+    "diableavionics_strife_wing"
+  ]
+}

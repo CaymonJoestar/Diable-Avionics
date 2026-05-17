@@ -39,10 +39,6 @@ public class DiableAvionicsMountBI extends BaseHullMod {
 
     @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
-        stats.getBallisticWeaponRangeBonus().modifyFlat(id, RANGE_BOOST);
-        stats.getEnergyWeaponRangeBonus().modifyFlat(id, RANGE_BOOST);
-        stats.getBeamWeaponRangeBonus().modifyFlat(id, -RANGE_BOOST);
-
         stats.getRecoilPerShotMult().modifyPercent(id, RECOIL_REDUCTION);
 
         stats.addListener(new DiableWeaponOPModifier(id));
@@ -84,7 +80,7 @@ public class DiableAvionicsMountBI extends BaseHullMod {
             return (int)(-RECOIL_REDUCTION) + txt("%");
         }
         if (index == 2) {
-            return LARGE_MOUNT_EXTRA_RANGE_BOOST + " " + txt("su");
+            return RANGE_BOOST + " " + txt("su");
         }
         return null;
     }
@@ -150,9 +146,16 @@ public class DiableAvionicsMountBI extends BaseHullMod {
 
         public float getWeaponBaseRangeFlatMod(ShipAPI ship, WeaponAPI weapon) {
             if (isDiableWeapon(weapon.getSpec())) {
+                if (weapon.isBeam() || weapon.isBurstBeam()) return 0f;
+                if (weapon.getSize() == WeaponSize.SMALL || weapon.getType() == WeaponType.BALLISTIC || weapon.getType() == WeaponType.ENERGY) {
+                    return RANGE_BOOST;
+                }
+                if (weapon.getSize() == WeaponSize.MEDIUM || weapon.getType() == WeaponType.BALLISTIC || weapon.getType() == WeaponType.ENERGY) {
+                    return RANGE_BOOST;
+                }
                 if (weapon.getSize() == WeaponSize.LARGE) {
                     if (weapon.getType() == WeaponType.BALLISTIC || weapon.getType() == WeaponType.ENERGY && !weapon.isBeam() && !weapon.isBurstBeam())
-                        return 100f;
+                        return RANGE_BOOST;
                 }
             }
             return 0;

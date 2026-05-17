@@ -1,0 +1,83 @@
+{
+  "variantId": "diable_tornadop_standard",
+  "hullId": "diable_tornadop",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 47,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "converted_hangar",
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "hellbore"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "heavyac",
+        "WS0004": "heavyac",
+        "WS0016": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0018": "irautolance",
+        "WS0019": "irautolance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0014": "flak",
+        "WS0015": "flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "vulcan",
+        "WS0012": "vulcan",
+        "WS0013": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "atropos",
+        "WS0005": "atropos",
+        "WS0006": "atropos",
+        "WS0007": "atropos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "diableavionics_micromissile",
+        "WS0008": "diableavionics_micromissile",
+        "WS0009": "diableavionics_micromissile",
+        "WS0010": "diableavionics_micromissile"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "broadsword_wing",
+    "broadsword_wing"
+  ]
+}

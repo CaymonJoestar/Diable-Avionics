@@ -7,9 +7,7 @@ import com.fs.starfarer.api.PluginPick;
 import com.fs.starfarer.api.campaign.CampaignFleetAPI;
 import com.fs.starfarer.api.campaign.CampaignPlugin;
 import com.fs.starfarer.api.campaign.StarSystemAPI;
-import com.fs.starfarer.api.combat.MissileAIPlugin;
-import com.fs.starfarer.api.combat.MissileAPI;
-import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import data.campaign.DACampaignPlugin;
 import data.scripts.ai.*;
@@ -26,6 +24,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DAModPlugin extends BaseModPlugin {
+    public static final String BUILTIN_MEDIUM_MAGICBOX_ID = "diableavionics_magicboxPodbuiltin";
+    public static final String MEDIUM_MAGICBOX_ID = "diableavionics_magicboxPod";
+    public static final String SMALL_MAGICBOX_ID = "diableavionics_magicbox";
+
     public static final String SCATTER_MISSILE_ID = "diableavionics_micromissile";
     public static final String PD_MISSILE_ID = "diableavionics_magicmissile";
     public static final String THUNDERBOLT_ID = "diableavionics_thunderbolt";
@@ -165,7 +167,20 @@ public class DAModPlugin extends BaseModPlugin {
             MarketHelpers.generateMarketsFromEconJson("diableavionics_fob");
         }
     }
+    @Override
+    public PluginPick<AutofireAIPlugin> pickWeaponAutofireAI(WeaponAPI weapon){
+        switch (weapon.getId()){
+            case SMALL_MAGICBOX_ID:
+                return new PluginPick<AutofireAIPlugin>(new Diableavionics_antiMissileLauncherSmallAI(weapon),CampaignPlugin.PickPriority.MOD_SPECIFIC);
+            case MEDIUM_MAGICBOX_ID:
+                return new PluginPick<AutofireAIPlugin>(new Diableavionics_antiMissileLauncherMidAI(weapon),CampaignPlugin.PickPriority.MOD_SPECIFIC);
+            case BUILTIN_MEDIUM_MAGICBOX_ID:
+                return new PluginPick<AutofireAIPlugin>(new Diableavionics_antiMissileLauncherMidAI(weapon),CampaignPlugin.PickPriority.MOD_SPECIFIC);
+        }
 
+
+        return null;
+    }
     @Override
     public PluginPick<MissileAIPlugin> pickMissileAI(MissileAPI missile, ShipAPI launchingShip) {
         switch (missile.getProjectileSpecId()) {

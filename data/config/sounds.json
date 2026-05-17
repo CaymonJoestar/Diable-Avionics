@@ -649,7 +649,12 @@
        
         
 
-
+	"diableavionics_mechastorm_alarm":[
+			{"file":"sounds/diablefx/da_sirocco_alarm.ogg","pitch":0.9, "volume":0.5}
+    ],
+	"diableavionics_mechastorm_jumpbeep":[
+			{"file":"sounds/diablefx/da_sirocco_jumpbeep.ogg","pitch":0.9, "volume":0.5}
+	],
 
 
 	

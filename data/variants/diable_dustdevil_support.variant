@@ -1,0 +1,77 @@
+{
+  "variantId": "diable_dustdevil_support",
+  "hullId": "diable_dustdevil",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missile_autoloader",
+    "targetingunit",
+    "expanded_deck_crew"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "diableavionics_mostro"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "diableavionics_microcluster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "diableavionics_gravemg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "diableavionics_magicboxPod",
+        "WS 010": "diableavionics_magicbox",
+        "WS 011": "diableavionics_magicbox"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "diableavionics_raptor",
+        "WS 007": "diableavionics_raptor"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "diableavionics_banishsmall",
+        "WS 003": "diableavionics_banishsmall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 000": "diableavionics_ibis",
+        "WS 002": "diableavionics_ibis"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "diableavionics_warlust_wing",
+    "diableavionics_warlust_wing",
+    "diableavionics_blizzaia_wing"
+  ]
+}

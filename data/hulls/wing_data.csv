@@ -19,7 +19,7 @@ diableavionics_nightinghale_wing,diableavionics_nightingale_Standard,"wanzer, su
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 diableavionics_vortex_wing,diableavionics_vortex_PD,"no_drop, no_sell, high",2,,4,0,V,2000,500,,1,SUPPORT,Drone,10,1500,,,,,,,,,,,,,18
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+diableavionics_strifeShield_wing,diableavionics_strifeShield_Standard,"no_drop, no_sell, high",2,,4,0,V,2000,500,,1,SUPPORT,Handheld Shield,10,1500,,,,,,,,,,,,,17
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 diableavionics_frost_wing_independent,diableavionics_frost_Standard,"restricted, independent_of_carrier, auto_fighter, no_drop, no_sell, fighter1, fighter, high, rd_no_extra_craft",4,2,6,1,CLAW,4000,500,,3,FIGHTER,Trooper,12,10000,,,,,,,,,,,,,1
 diableavionics_strife_wing_independent,diableavionics_strife_Standard,"restricted, independent_of_carrier, auto_fighter, no_drop, no_sell, fighter2, fighter, high, rd_no_extra_craft",4,2,7,1,BOX,4000,500,-100,2,FIGHTER,Gunner,14,11000,,,,,,,,,,,,,4

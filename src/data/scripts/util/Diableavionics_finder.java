@@ -10,6 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.fs.starfarer.api.loading.WingRole;
 import org.lazywizard.lazylib.MathUtils;
 import org.lazywizard.lazylib.VectorUtils;
 import org.lazywizard.lazylib.combat.AIUtils;
@@ -83,4 +84,79 @@ public class Diableavionics_finder {
 
         return wanzerlist;
     }
+
+    public static List<ShipAPI> siroco_getFighters(ShipAPI carrier,float SYSTEM_RANGE) {
+        List<ShipAPI> result = new ArrayList<ShipAPI>();
+
+//        for (ShipAPI ship: CombatUtils.getShipsWithinRange(carrier.getLocation(),2000)){
+//            if (!ship.isFighter()) continue;
+//            if (ship.getWing() == null) continue;
+//
+//            if (ship.getOwner() == carrier.getOwner()){
+//                result.add(ship);
+//            }
+//
+//
+//        }
+        float range=SYSTEM_RANGE;
+        if(carrier.getOriginalCaptain().getStats().hasSkill("systems_expertise")){
+            range*=1.5f;
+        }
+        for(ShipAPI ship: AIUtils.getNearbyAllies(carrier,range)){
+
+            if (!ship.isFighter()) continue;
+            if (!ship.isAlive()) continue;
+            if (ship.isDrone()) continue;
+            //for  exclude spawned Shipapi  such as strife`s sheild  排除类似于冲突护盾这样的 被生成的对象
+            //诚挚建议:以后在做跟null做条件判断时应该把null放在条件前面，把变量放在后边
+            if(null == ship.getWing()) continue;
+            if(null == ship.getWing().getSourceShip())continue;
+            if (ship.isHulk()||ship.isLanding()|| ship.isPhased())continue;
+
+            //对非万泽舰载机 排除非万泽的轰炸机和支援机
+            if(!ship.getWing().getSpec().hasTag("wanzer")){
+
+                if(ship.getWing().getRole().equals(WingRole.BOMBER)||ship.getWing().getRole().equals(WingRole.SUPPORT)) continue;
+
+            }
+            //对于万泽 排除战意狙击手和夜莺
+            if(ship.getWing().getSpec().hasTag("wanzer")){
+
+                if(ship.getHullSpec().getHullId().contains("warlust")){
+                    if(ship.getWing().getSourceShip().getVariant().getHullMods().contains("diableavionics_sniperkit"))
+                        continue;
+                }
+
+                if(ship.getHullSpec().getHullId().contains("nightingale"))continue;
+            }
+
+            if (ship.getOwner() == carrier.getOwner()){
+
+                result.add(ship);
+            }
+
+        }
+
+//        for (CombatFleetManagerAPI.AssignmentInfo order: Global.getCombatEngine().getFleetManager(1).getTaskManager(true).getAllAssignments()){
+//
+//            if(order.getType()==CombatAssignmentType.HEAVY_ESCORT||order.getType()==CombatAssignmentType.LIGHT_ESCORT||order.getType()==CombatAssignmentType.MEDIUM_ESCORT){
+//
+//
+//            }
+//        }
+
+
+
+
+//        for (ShipAPI ship : Global.getCombatEngine().getShips()) {
+//            if (!ship.isFighter()) continue;
+//            if (ship.getWing() == null) continue;
+//            if (ship.getWing().getSourceShip() == carrier) {
+//                result.add(ship);
+//            }
+//        }
+
+        return result;
+    }
+
 }

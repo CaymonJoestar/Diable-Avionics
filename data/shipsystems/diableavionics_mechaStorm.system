@@ -1,0 +1,17 @@
+{
+	"id":"diableavionics_mechaStorm",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.Diableavionics_mechaStormAI",
+	"statsScript":"data.shipsystems.scripts.Diableavionics_mechaStorm",
+
+	"useSound":"system_recall_device",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+

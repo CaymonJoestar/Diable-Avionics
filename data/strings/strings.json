@@ -118,6 +118,35 @@
                "subsystem_arc_01":"Arc Burst Emmitter",
                "subsystem_awacs_01":"Frontline AWACS",
 
+				"hm_siroccocenter_icon_title": "Dust Devli Link Status",
+
+                "hm_notdiableship":"Can only be fitted on Diable Avionics ships",
+                "hm_hasdampalready":"The ship has been equipped with an integrated damper wave system",
+
+                "hm_siroccocenter_01":"The Dust Devil-class Wanzer Command center serves as the core of any Diable Avionics fleet for command operations, increasing the regeneration speed of Command Points by %s when on the field.",
+                "hm_siroccocenter_02":" The command data provided by the Dust Devil provides valuable tactial data to nearby fighters and escort craft, boosting the ship system recharge rate by %s, In addition, it boosts the damage of fighters by %s.",
+                "hm_siroccocenter_03":" The tranmission range of the tactical data is %s units, which may be changed due whetever or not system expertise is achiveved",
+                "hm_tooltip_title_traningbuff": "Pilot Boost (Not Implemented)",
+                "hm_siroccocenter_04":"Future stuff, dont worry about it ",
+                "hm_siroccocenter_05":"Unlocking Advanced Combat Tactics",
+                "hm_dampdash_01":"Wanzers gain the Damper wave subsystem, increasing their maneuverability while also granting an burst of speed for 0.7s along with a damage reducation during the duration.",
+                "hm_dampdash_02":"\n Cooldown:  %s",
+                "hm_dampdash_03":"\n Max Charges:  %s",
+                "hm_dampdash_04":"\n Charge Recharge Time:  %s",
+                "hm_dampdash_05":"\n Damage Reduced:  %s",
+                "hm_dampdash_06":"Wanzer pilots will use dashes to dodge dangerous projectiles and beam weaponry while also moving toward closing the gap on targets",
+    			"hm_dampdash_07":"Pilot Boost (Not Implemented)",
+                "hm_dampdash_08":"The power of the boost relies heavily on the pilot's ability to take advantage of the system with skill and experience, letting them find new ways to assess the battlefield",
+                "hm_dampdash_09":"\"Outnumbered 2 to 1, recommending hit and run tactics\"",
+                "hm_dampdash_10":"         \u2014 Raven pilot, during an hunt against a Tri-Tachyon fleet",
+
+                "hm_armorshield_01":"The Strife Wanzer is equipped with an handheld shield with its own armor and hull. Should the shield be destroyed, the Strife wanzer will still be able to continue the fight ",
+                "hm_armorshield_02":"The handheld shield comes equipped with one single use Thunderbolt SRM missile, despite the single use limitation, the missile provides powerful anti armor firepower for the Strife. ",
+                "hm_armorshield_03":"The handheld shield has %s hull and %s armor, but the protection only works in whatever direction the shield is facing",
+
+                "hm_armorshield_05":"\"Use your shield, better it takes the blunt of the damage than you if you wish to return alive\"",
+                "hm_armorshield_06":"         \u2014 Wing leader of an Strife Wanzer unit 2 hours before the battle of Sivie",
+
 				"hm_cc_1":"Optimized Navigation Profile",
 
                 "stm_repair0":"Repairs in progress",

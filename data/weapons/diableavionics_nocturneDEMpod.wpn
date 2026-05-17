@@ -1,0 +1,46 @@
+{
+  "id": "diableavionics_nocturneDEMpod",
+  "specClass": "projectile",
+  "projectileSpecId": "diableavionics_nocturneDEM_missile",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/da/weapons/diable_NocturneDEMPod_turret.png",
+  "hardpointSprite": "graphics/da/weapons/diable_NocturneDEMPod_hardpoint.png",
+  "renderHints": [
+    RENDER_LOADED_MISSILES
+  ],
+  "turretOffsets": [
+    3,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    8,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 20,
+    "particleSizeRange": 15,
+    "cloudParticleCount": 4,
+    "cloudDuration": 0.8,
+    "cloudRadius": 7,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 2,
+    "blowbackLength": 30,
+    "blowbackSpread": 10,
+    "particleColor": [
+      160,
+      60,
+      160,
+      130
+    ]
+  },
+  "fireSoundTwo": "diableavionics_nocturne_demlauncher_fire"
+}

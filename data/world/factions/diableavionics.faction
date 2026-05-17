@@ -73,6 +73,8 @@
             "diableavionics_rime":1,
 
             "diableavionics_maelstrom":1,
+            "diable_tornado":0.75,
+            "diable_dustdevil":0.75,
             "diableavionics_pandemonium":0.2,
         },
     },
@@ -151,6 +153,8 @@
 
             "diableavionics_maelstrom",
             "diableavionics_pandemonium",
+            "diable_tornado",
+            "diable_dustdevil",
         ],
     },
 
@@ -193,6 +197,8 @@
 
             "diableavionics_maelstrom",
             "diableavionics_pandemonium",
+            "diable_tornado",
+            "diable_dustdevil",
         ],
     },
 
@@ -278,6 +284,7 @@
             "diableavionics_thrush",
             "diableavionics_artdeux",
             "diableavionics_magicboxPod",
+            "diableavionics_nocturneDEMpod",
 
             "diableavionics_mostro",
             "diableavionics_hexafire2",
@@ -301,6 +308,7 @@
             "diableavionics_winee",
             "diableavionics_glowfang",
             "diableavionics_graveac",
+            "diableavionics_nocturneDEM_small",
 
             "diableavionics_raptor",
             "diableavionics_recson2",
@@ -317,6 +325,7 @@
             "diableavionics_banish",
             "diableavionics_thrush",
             "diableavionics_artdeux",
+            "diableavionics_nocturneDEMpod",
 
             "diableavionics_mostro",
             "diableavionics_hexafire2",
@@ -358,7 +367,9 @@
             "ecm",
             "diableavionics_sniperkit",
             "diableavionics_mount",
-            "diableavionics_avionics"
+            "diableavionics_avionics",
+            "diableavionics_armorshield",
+            "diableavionics_dampdashship",
         ],
     },
 

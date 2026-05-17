@@ -9,6 +9,7 @@ import java.lang.annotation.Target;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Vector;
 
 import com.fs.starfarer.api.util.IntervalUtil;
 import data.scripts.util.Diableavionics_finder;
@@ -59,8 +60,9 @@ public class Diableavionics_antiMissileLauncherSmallAI implements AutofireAIPlug
                 if (missiles.isEmpty()&&targetfighter==null) {
                             shouldfire = false;
                 } else {
-                    if(!missiles.isEmpty()){ target=AIUtils.getNearestMissile(ship);}
+                    if(!missiles.isEmpty()){ target=AIUtils.getNearestEnemyMissile(ship);}
                     else if(targetfighter!=null){ target=targetfighter; }
+                    shouldfire = true;
                 }
             }
 
@@ -79,7 +81,11 @@ public class Diableavionics_antiMissileLauncherSmallAI implements AutofireAIPlug
 
     @Override
     public Vector2f getTarget() {
-        return target.getLocation();
+
+        if(target!=null){
+            return target.getLocation();
+        }
+        return new Vector2f(0,0);
     }
 
     @Override

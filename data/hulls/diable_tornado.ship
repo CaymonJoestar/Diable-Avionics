@@ -1,0 +1,311 @@
+{
+  "hullName": "Tornado",
+  "hullId": "diable_tornado",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/da/ships/diable_tornado.png",
+  "style": "DA_WANZER",
+  "height": 335,
+  "width": 154,
+  "center": [77, 155],
+  "collisionRadius": 203,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 197,
+  "viewOffset": 0,
+  "builtInMods": [
+    "diableavionics_mountBI",
+    "insulatedengine",
+    "repair_gantry"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 0,
+      "locations": [43, -40.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -0,
+      "locations": [43, 40.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": 0,
+      "locations": [29, -31.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 155,
+      "angle": -0,
+      "locations": [29, 31.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [17, -44.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [17, 44.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [3, -35.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [3, 35.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [-9, -48.5]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [-9, 48.5]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": -90,
+      "locations": [-48.5, -41]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 160,
+      "angle": 90,
+      "locations": [-48.5, 41]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 180,
+      "locations": [-126.5, -0]
+    },
+    {
+      "id": "WS0014",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": -130,
+      "locations": [-80, -54]
+    },
+    {
+      "id": "WS0015",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 130,
+      "locations": [-80, 54]
+    },
+    {
+      "id": "WS0016",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 280,
+      "angle": 0,
+      "locations": [66, -0]
+    },
+    {
+      "id": "WS0017",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [95, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-139, -0],
+      "length": 6,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-143, -10.5],
+      "length": 6,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-143, 10.5],
+      "length": 6,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-141, -18.5],
+      "length": 6,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-141, 18.5],
+      "length": 6,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-146, -37.5],
+      "length": 6,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-146, 37.5],
+      "length": 6,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-148, -45.5],
+      "length": 6,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-148, 45.5],
+      "length": 6,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    }
+  ],
+  "bounds": [
+    -143, 14,
+    -141, 15,
+    -141, 21,
+    -122, 25,
+    -122, 32,
+    -146, 34,
+    -146, 41,
+    -148, 43,
+    -148, 48,
+    -140, 49,
+    -116, 66,
+    5, 67,
+    19.5, 60.5,
+    56, 57,
+    61, 51,
+    61, 42,
+    95, 42,
+    95, 25,
+    99.5, 21,
+    180, 15,
+    173, 6,
+    104, 6,
+    104, -6,
+    173, -6,
+    180, -15,
+    99.5, -21,
+    95, -25,
+    95, -42,
+    61, -42,
+    61, -51,
+    56, -57,
+    19.5, -60.5,
+    5, -67,
+    -116, -66,
+    -140, -49,
+    -148, -48,
+    -148, -43,
+    -146, -41,
+    -146, -34,
+    -122, -32,
+    -122, -25,
+    -141, -21,
+    -141, -15,
+    -143, -14,
+    -143, -8,
+    -139, -2,
+    -139, 2,
+    -143, 8
+  ]
+}

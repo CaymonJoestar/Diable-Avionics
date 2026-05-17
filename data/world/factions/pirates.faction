@@ -5,6 +5,7 @@
             "diableavionics_rime_p":0.5,
             "diable_tidalp":0.5,
             "diableavionics_chinookp":0.5,
+            "diable_tornadop":0.5,
         },
     },
     "shipsWhenImporting":{
@@ -13,6 +14,7 @@
             "diableavionics_rime_p",
             "diable_tidalp",
             "diableavionics_chinookp",
+            "diable_tornadop",
         ],
     },
     "knownShips":{
@@ -21,6 +23,7 @@
             "diableavionics_rime_p",
             "diable_tidalp",
             "diableavionics_chinookp",
+            "diable_tornadop",
         ],
     },
 },

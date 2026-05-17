@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Kotlin-Runtime">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../LazyLib/jars/internal/Kotlin-Runtime.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../LazyLib/jars/LazyLib-Kotlin.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

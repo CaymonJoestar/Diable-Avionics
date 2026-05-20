@@ -16,7 +16,7 @@ import org.magiclib.util.MagicRender;
 public class Diableavionics_mechaStorm extends BaseShipSystemScript {
 
     private final float MANEUVERBUFF_PERCENT=150f;
-    private static final float SYSTEM_RANGE=2000f;
+    private static final float SYSTEM_RANGE=4000f;
 
     private float beep = 0;
     private int beep_times = 0;

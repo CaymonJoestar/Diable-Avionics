@@ -26,7 +26,8 @@
   ],
   "builtInWeapons": {
     "WS0001": "diableavionics_microarrayM",
-    "WS0002": "diableavionics_microarrayM"
+    "WS0002": "diableavionics_microarrayM",
+    "WS0025": "diable_pandasystem"
   },
   "weaponSlots": [
     {
@@ -201,42 +202,6 @@
       "locations": [49, -49]
     },
     {
-      "id": "WS0020",
-      "size": "SMALL",
-      "type": "DECORATIVE",
-      "mount": "HIDDEN",
-      "arc": 0,
-      "angle": 0,
-      "locations": [0, 0]
-    },
-    {
-      "id": "WS0021",
-      "size": "SMALL",
-      "type": "DECORATIVE",
-      "mount": "HIDDEN",
-      "arc": 0,
-      "angle": 0,
-      "locations": [0, -0]
-    },
-    {
-      "id": "WS0022",
-      "size": "SMALL",
-      "type": "DECORATIVE",
-      "mount": "HIDDEN",
-      "arc": 0,
-      "angle": 0,
-      "locations": [0, -0]
-    },
-    {
-      "id": "WS0023",
-      "size": "SMALL",
-      "type": "DECORATIVE",
-      "mount": "HIDDEN",
-      "arc": 0,
-      "angle": 0,
-      "locations": [0, -0]
-    },
-    {
       "id": "WS0030",
       "size": "SMALL",
       "type": "HYBRID",
@@ -363,22 +328,13 @@
       "locations": [152, 28]
     },
     {
-      "id": "WS0024",
-      "size": "SMALL",
-      "type": "DECORATIVE",
-      "mount": "HIDDEN",
-      "arc": 0,
-      "angle": 0,
-      "locations": [0, -0]
-    },
-    {
       "id": "WS0025",
-      "size": "SMALL",
+      "size": "LARGE",
       "type": "DECORATIVE",
       "mount": "HIDDEN",
       "arc": 0,
       "angle": 0,
-      "locations": [0, -0]
+      "locations": [1, -0]
     }
   ],
   "engineSlots": [

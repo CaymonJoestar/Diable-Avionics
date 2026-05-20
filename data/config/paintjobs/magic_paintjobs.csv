@@ -1,4 +1,12 @@
 id,hullIds,name,paintjobFamily,spriteId,unlockedAutomatically,tags,unlockConditions,description
+diableavionics_dra_pandemoniumMK1,diableavionics_pandemoniumMK1,DRA,DRA,graphics/DRA/ships/diableavionics_pandemoniummk1.png,true,,,
+diableavionics_lilium_pandemoniumMK1,diableavionics_pandemoniumMK1,Lilium,lilium,graphics/lilium/ships/diableavionics_pandemoniummk1.png,true,,,
+diableavionics_battlehardened_pandemoniumMK1,diableavionics_pandemoniumMK1,Battle Hardened,battlehardened,graphics/battlehardened/ships/diableavionics_pandemoniummk1.png,true,,,
+diableavionics_battleworn_pandemoniumMK1,diableavionics_pandemoniumMK1,Battleworn,battleworn,graphics/battleworn/ships/diableavionics_pandemoniummk1.png,true,,,
+diableavionics_rosenritter_pandemoniumMK1,diableavionics_pandemoniumMK1,Rosenritter,rosenritter,graphics/rosenritter/ships/diableavionics_pandemoniummk1.png,true,,,
+diableavionics_stripeless_pandemoniumMK1,diableavionics_pandemoniumMK1,Stripeless,stripeless,graphics/stripeless/ships/diableavionics_pandemoniummk1.png,true,,,
+diableavionics_navy_pandemoniumMK1,diableavionics_pandemoniumMK1,Navy,navy,graphics/navy/ships/diableavionics_pandemoniummk1.png,true,,,
+diableavionics_da_pandemoniumMK1,diableavionics_pandemoniumMK1,Diable Avionics,diable_avionics,graphics/da/ships/diableavionics_pandemoniumMK1.png,true,,,
 diableavionics_dra_arbitrator,diableavionics_arbitrator,DRA,DRA,graphics/DRA/ships/arbitrator/diableavionics_arbitrator.png,true,,,
 diableavionics_lilium_arbitrator,diableavionics_arbitrator,Lilium,lilium,graphics/lilium/ships/arbitrator/diableavionics_arbitrator.png,true,,,
 diableavionics_ornate_arbitrator,diableavionics_arbitrator,Ornate,ornate,graphics/ornate/ships/arbitrator/diableavionics_arbitrator.png,true,,,

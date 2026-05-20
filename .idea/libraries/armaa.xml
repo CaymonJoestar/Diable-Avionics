@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="armaa">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../SS-armaa-3.1.5/jars/armaa.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../armaa-3.3.1pr/jars/armaa.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

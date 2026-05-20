@@ -25,7 +25,7 @@ public class Diableavionics_dampdashSubsystem extends MagicSubsystem {
     private final Integer DECCEL_BUFF = 300;
     private final Integer SPEED_BUFF = 200;
     private final Float DAMAGE_RESISTANCE = 0.5f;
-    private int BASE_MAX_CHARGES = 2;
+    private int BASE_MAX_CHARGES = 1;
     private final IntervalUtil tick = new IntervalUtil(0.05f,0.05f);
     private static final Color engineColor = new Color(0x00FF80);
     private float degress =0f;
@@ -52,17 +52,17 @@ public class Diableavionics_dampdashSubsystem extends MagicSubsystem {
 
     @Override
     public float getBaseCooldownDuration() {
-        return 3f;
+        return 5f;
     }
 
     @Override
     public int getMaxCharges() {
-        return 3;
+        return 1;
     }
 
     @Override
     public float getBaseChargeRechargeDuration() {
-        return 10f;
+        return 15f;
     }
 
 
@@ -201,7 +201,7 @@ public class Diableavionics_dampdashSubsystem extends MagicSubsystem {
             switch (state) {
                 case IN:
                     //play soundeffect
-                    Global.getSoundPlayer().playSound("diableavionics_damperwave",1.2f,0.8f,ship.getLocation(),ship.getVelocity());
+                    Global.getSoundPlayer().playSound("diableavionics_damperwave",0.6f,0.4f,ship.getLocation(),ship.getVelocity());
 
                     //mobility boost
                     stats.getMaxSpeed().modifyPercent(getDisplayText(), getEffectLevel()*SPEED_BUFF);

@@ -16,8 +16,6 @@ import static data.scripts.util.Diableavionics_stringsManager.txt;
 public class DiableAvionicsDampdashShip extends BaseHullMod {
 
 
-
-
     @Override
     public String getDescriptionParam(int index, HullSize hullSize) {
         return null;
@@ -43,7 +41,7 @@ public class DiableAvionicsDampdashShip extends BaseHullMod {
                         + txt("hm_dampdash_04")
                         + txt("hm_dampdash_05"),
                 pad, Misc.getHighlightColor(),
-                " 3s "," 2 "," 10s "," 50% ");
+                " 5s "," 1 "," 15s "," 50% ");
 
         tooltip.addPara(txt("hm_dampdash_06"), Misc.getHighlightColor(),pad);
         tooltip.addSectionHeading(txt("hm_dampdash_07"), Alignment.MID, pad);
@@ -77,6 +75,6 @@ public class DiableAvionicsDampdashShip extends BaseHullMod {
     @Override
     public boolean isApplicableToShip(ShipAPI ship) {
         // Allows any ship with a diableavionics hull id
-        return (ship.getHullSpec().getHullId().startsWith("diableavionics_"));
+        return (ship.getHullSpec().getHullId().startsWith("diable_"));
     }
 }

@@ -75,6 +75,6 @@ public class DiableAvionicsDampdashShip extends BaseHullMod {
     @Override
     public boolean isApplicableToShip(ShipAPI ship) {
         // Allows any ship with a diableavionics hull id
-        return (ship.getHullSpec().getHullId().startsWith("diable_"));
+        return (ship.getHullSpec().getHullId().startsWith("diable"));
     }
 }

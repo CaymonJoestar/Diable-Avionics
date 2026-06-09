@@ -145,7 +145,6 @@ public class DiableAvionicsMountBI extends BaseHullMod {
         }
 
         public float getWeaponBaseRangeFlatMod(ShipAPI ship, WeaponAPI weapon) {
-            if (isDiableWeapon(weapon.getSpec())) {
                 if (weapon.isBeam() || weapon.isBurstBeam()) return 0f;
                 if (weapon.getSize() == WeaponSize.SMALL || weapon.getType() == WeaponType.BALLISTIC || weapon.getType() == WeaponType.ENERGY) {
                     return RANGE_BOOST;
@@ -157,7 +156,6 @@ public class DiableAvionicsMountBI extends BaseHullMod {
                     if (weapon.getType() == WeaponType.BALLISTIC || weapon.getType() == WeaponType.ENERGY && !weapon.isBeam() && !weapon.isBurstBeam())
                         return RANGE_BOOST;
                 }
-            }
             return 0;
         }
     }

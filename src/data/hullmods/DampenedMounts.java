@@ -13,8 +13,9 @@ public class DampenedMounts extends DiableAvionicsMountBI {
 
     @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
-        super.applyEffectsBeforeShipCreation(hullSize, stats, id);
-
+        stats.getBallisticWeaponRangeBonus().modifyFlat(id, RANGE_BOOST);
+        stats.getEnergyWeaponRangeBonus().modifyFlat(id, RANGE_BOOST);
+        stats.getBeamWeaponRangeBonus().modifyFlat(id, -RANGE_BOOST);
         stats.getWeaponDamageTakenMult().modifyPercent(id, MODULAR_WEAPON_DAMAGE_TAKEN);
 
         if (!isSMod(stats)) {

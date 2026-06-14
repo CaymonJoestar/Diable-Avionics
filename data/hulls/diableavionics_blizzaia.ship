@@ -1,29 +1,18 @@
 {
-  "bounds": [
-    10.5,
-    11,
-    5.5,
-    12,
-    -0.5,
-    18,
-    -5.5,
-    13,
-    -14.5,
-    11,
-    -9.5,
-    -0,
-    -14.5,
-    -11,
-    -5.5,
-    -13,
-    -0.5,
-    -18,
-    5.5,
-    -12,
-    10.5,
-    -11,
-    14.5,
-    -0
+  "hullName": "Blizzaia",
+  "hullId": "diableavionics_blizzaia",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/da/ships/blizzaia/diableavionics_blizzaia_body.png",
+  "style": "DA_WANZER",
+  "height": 36,
+  "width": 41,
+  "center": [20, 19.5],
+  "collisionRadius": 34.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 33.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "diableavionics_wanzer"
   ],
   "builtInWeapons": {
     "HEAD": "diableavionics_blizzaiaHead",
@@ -32,136 +21,105 @@
     "SHOULDER_L": "diableavionics_blizzaiaShoulderL",
     "SHOULDER_R": "diableavionics_blizzaiaShoulderR"
   },
-  "center": [
-    20,
-    19.5
-  ],
-  "collisionRadius": 34.5,
-  "engineSlots": [
-    {
-      "angle": 180,
-      "contrailSize": 10,
-      "length": 22.5,
-      "location": [
-        -13.5,
-        9
-      ],
-      "style": "CUSTOM",
-      "styleId": "DiableAvionicsTrail",
-      "width": 10
-    },
-    {
-      "angle": -180,
-      "contrailSize": 10,
-      "length": 22.5,
-      "location": [
-        -13.5,
-        -9
-      ],
-      "style": "CUSTOM",
-      "styleId": "DiableAvionicsTrail",
-      "width": 10
-    }
-  ],
-  "height": 36,
-  "hullId": "diableavionics_blizzaia",
-  "hullName": "Blizzaia",
-  "hullSize": "FIGHTER",
-  "shieldCenter": [
-    0,
-    -0
-  ],
-  "shieldRadius": 33.5,
-  "spriteName": "graphics/da/ships/blizzaia/diableavionics_blizzaia_body.png",
-  "style": "DA_WANZER",
-  "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 10,
-      "arc": 70,
       "id": "LEFT",
-      "locations": [
-        2,
-        12
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BUILT_IN"
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": 10,
+      "locations": [2, 12]
     },
     {
-      "angle": 10,
-      "arc": 70,
       "id": "SHOULDER_L",
-      "locations": [
-        2,
-        9
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
       "type": "DECORATIVE",
-      "renderOrderMod":+100,
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": 10,
+      "locations": [2, 9],
+      "renderOrderMod": 100
     },
     {
-      "angle": 0,
-      "arc": 135,
       "id": "HEAD",
-      "locations": [
-        0,
-        -0
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BUILT_IN"
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [0, -0]
     },
     {
-      "angle": -10,
-      "arc": 70,
       "id": "RIGHT",
-      "locations": [
-        2,
-        -12
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BUILT_IN"
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": -10,
+      "locations": [2, -12]
     },
     {
-      "angle": -10,
-      "arc": 70,
       "id": "SHOULDER_R",
-      "locations": [
-        2,
-        -9
-      ],
-      "mount": "TURRET",
       "size": "MEDIUM",
       "type": "DECORATIVE",
-      "renderOrderMod":+100,
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": -10,
+      "locations": [2, -9],
+      "renderOrderMod": 100
     },
     {
-      "angle": 0,
-      "arc": 0,
       "id": "WS0001",
-      "locations": [
-        14.5,
-        -0
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "SYSTEM"
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [14.5, -0]
     },
     {
-      "angle": 180,
-      "arc": 0,
       "id": "WS0002",
-      "locations": [
-        -12.5,
-        -0
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "SYSTEM"
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-12.5, -0]
     }
   ],
-  "width": 41
+  "engineSlots": [
+    {
+      "location": [-13.5, 9],
+      "length": 22.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-13.5, -9],
+      "length": 22.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    }
+  ],
+  "bounds": [
+    10.5, 11,
+    5.5, 12,
+    -0.5, 18,
+    -5.5, 13,
+    -14.5, 11,
+    -9.5, -0,
+    -14.5, -11,
+    -5.5, -13,
+    -0.5, -18,
+    5.5, -12,
+    10.5, -11,
+    14.5, -0
+  ]
 }

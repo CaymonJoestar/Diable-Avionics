@@ -7,7 +7,7 @@ import data.scripts.ai.WanzerMovementScript;
 
 public class DiableAvionicsWanzer extends BaseHullMod {
 
-    private final float EMP_RESIST = 33, DISABLE_RESIST = 66;
+    private final float EMP_RESIST = 33, DISABLE_RESIST = 33;
 
     @Override
     public String getDescriptionParam(int index, HullSize hullSize) {
@@ -30,14 +30,11 @@ public class DiableAvionicsWanzer extends BaseHullMod {
         ship.getMutableStats().getEmpDamageTakenMult().modifyMult(id, (100 - EMP_RESIST) / 100);
         ship.getMutableStats().getEngineDamageTakenMult().modifyMult(id, (100 - DISABLE_RESIST) / 100);
         ship.getMutableStats().getWeaponDamageTakenMult().modifyMult(id, (100 - DISABLE_RESIST) / 100);
-
-
-        ship.addListener(new WanzerMovementScript(ship));
     }
 
     @Override
     public boolean isApplicableToShip(ShipAPI ship) {
         // Allows any ship with a diableavionics hull id
-        return (ship.getHullSpec().getHullId().startsWith("diableavionics_"));
+        return (ship.getHullSpec().getHullId().startsWith("diable"));
     }
 }

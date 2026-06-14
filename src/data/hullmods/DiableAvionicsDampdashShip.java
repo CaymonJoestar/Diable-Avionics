@@ -5,6 +5,7 @@ import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import com.fs.starfarer.api.ui.Alignment;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.Misc;
+import data.shipsystems.scripts.Diableavionics_assumeControlStats2;
 import data.shipsystems.scripts.Diableavionics_dampdashSubsystem;
 import org.magiclib.subsystems.MagicSubsystemsManager;
 
@@ -69,7 +70,6 @@ public class DiableAvionicsDampdashShip extends BaseHullMod {
 
     @Override
     public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
-
     }
 
     @Override

@@ -257,7 +257,7 @@ public class Diableavionics_assumeControlStats extends BaseShipSystemScript {
         }
     }
 
-    private class ControlFighterSwitch extends MagicSubsystem {
+    public class ControlFighterSwitch extends MagicSubsystem {
         private ShipAPI carrier;
         public ControlFighterSwitch(ShipAPI ship, ShipAPI carrier) {
             super(ship);

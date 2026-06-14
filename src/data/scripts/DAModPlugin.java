@@ -27,6 +27,9 @@ public class DAModPlugin extends BaseModPlugin {
     public static final String BUILTIN_MEDIUM_MAGICBOX_ID = "diableavionics_magicboxPodbuiltin";
     public static final String MEDIUM_MAGICBOX_ID = "diableavionics_magicboxPod";
     public static final String SMALL_MAGICBOX_ID = "diableavionics_magicbox";
+    public static final String NIGHTINGALE_MAGICBOX_ID = "diableavionics_nightingaleMagicbox";
+    public static final String WARLUST_MAGICBOX_ID = "diableavionics_warlustmissile";
+    public static final String VIRTHEAD_MAGICBOX_ID = "diableavionics_virtuous_headD";
 
     public static final String SCATTER_MISSILE_ID = "diableavionics_micromissile";
     public static final String PD_MISSILE_ID = "diableavionics_magicmissile";
@@ -170,6 +173,12 @@ public class DAModPlugin extends BaseModPlugin {
     @Override
     public PluginPick<AutofireAIPlugin> pickWeaponAutofireAI(WeaponAPI weapon){
         switch (weapon.getId()){
+            case VIRTHEAD_MAGICBOX_ID:
+                return new PluginPick<AutofireAIPlugin>(new Diableavionics_antiMissileLauncherSmallAI(weapon),CampaignPlugin.PickPriority.MOD_SPECIFIC);
+            case NIGHTINGALE_MAGICBOX_ID:
+                return new PluginPick<AutofireAIPlugin>(new Diableavionics_antiMissileLauncherSmallAI(weapon),CampaignPlugin.PickPriority.MOD_SPECIFIC);
+            case WARLUST_MAGICBOX_ID:
+                return new PluginPick<AutofireAIPlugin>(new Diableavionics_antiMissileLauncherSmallAI(weapon),CampaignPlugin.PickPriority.MOD_SPECIFIC);
             case SMALL_MAGICBOX_ID:
                 return new PluginPick<AutofireAIPlugin>(new Diableavionics_antiMissileLauncherSmallAI(weapon),CampaignPlugin.PickPriority.MOD_SPECIFIC);
             case MEDIUM_MAGICBOX_ID:
@@ -177,8 +186,6 @@ public class DAModPlugin extends BaseModPlugin {
             case BUILTIN_MEDIUM_MAGICBOX_ID:
                 return new PluginPick<AutofireAIPlugin>(new Diableavionics_antiMissileLauncherMidAI(weapon),CampaignPlugin.PickPriority.MOD_SPECIFIC);
         }
-
-
         return null;
     }
     @Override

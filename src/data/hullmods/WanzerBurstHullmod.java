@@ -8,6 +8,7 @@ import com.fs.starfarer.api.combat.FighterWingAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.listeners.AdvanceableListener;
 import com.fs.starfarer.api.impl.combat.RealityDisruptorChargeGlow;
+import data.shipsystems.scripts.Diableavionics_assumeControlStats2;
 import org.lazywizard.lazylib.MathUtils;
 import org.magiclib.subsystems.MagicSubsystem;
 import org.magiclib.subsystems.MagicSubsystemsManager;
@@ -25,6 +26,7 @@ public class WanzerBurstHullmod extends BaseHullMod {
     @Override
     public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
         //MagicSubsystemsManager.addSubsystemToShip(ship, new WanzerBurstSubsystem(ship));
+        MagicSubsystemsManager.addSubsystemToShip(ship, new Diableavionics_assumeControlStats2(ship));
     }
 
     @Override

@@ -11,6 +11,9 @@
   "shieldCenter": [0, -0],
   "shieldRadius": 42.5,
   "viewOffset": 0,
+  "builtInMods": [
+    "diableavionics_wanzer"
+  ],
   "builtInWeapons": {
     "ARM_L": "diableavionics_hoarArmL",
     "ARM_R": "diableavionics_hoarArmR",

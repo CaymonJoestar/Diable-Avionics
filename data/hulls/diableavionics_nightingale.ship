@@ -11,6 +11,9 @@
   "shieldCenter": [0, -0],
   "shieldRadius": 48.5,
   "viewOffset": 0,
+  "builtInMods": [
+    "diableavionics_wanzer"
+  ],
   "builtInWeapons": {
     "WS0001": "diableavionics_nightingaleLeftArm",
     "WS0002": "diableavionics_nightingaleRightArm",

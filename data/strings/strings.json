@@ -124,8 +124,8 @@
                 "hm_hasdampalready":"The ship has been equipped with an integrated damper wave system",
 
                 "hm_siroccocenter_01":"The Dust Devil-class Wanzer Command center serves as the core of any Diable Avionics fleet for command operations, increasing the regeneration speed of Command Points by %s when on the field.",
-                "hm_siroccocenter_02":" The command data provided by the Dust Devil provides valuable tactial data to nearby fighters and escort craft, boosting the ship system recharge rate by %s, In addition, it boosts the damage of fighters by %s.",
-                "hm_siroccocenter_03":" The tranmission range of the tactical data is %s units, which may be changed due whetever or not system expertise is achiveved",
+                "hm_siroccocenter_02":" The command data provided by the Dust Devil provides valuable tactical data to nearby fighters and escort craft, boosting the ship system recharge rate by %s, In addition, it boosts the damage of fighters by %s.",
+                "hm_siroccocenter_03":" The transmission range of the tactical data is %s units, which may be increased if System Expertise is achieved",
                 "hm_tooltip_title_traningbuff": "Pilot Boost (Not Implemented)",
                 "hm_siroccocenter_04":"Future stuff, dont worry about it ",
                 "hm_siroccocenter_05":"Unlocking Advanced Combat Tactics",

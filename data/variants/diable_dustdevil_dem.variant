@@ -3,8 +3,8 @@
   "hullId": "diable_dustdevil",
   "displayName": "DEM Sieger",
   "goalVariant": true,
-  "fluxCapacitors": 0,
-  "fluxVents": 9,
+  "fluxCapacitors": 1,
+  "fluxVents": 12,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -72,6 +72,7 @@
   "wings": [
     "diableavionics_blizzaia_wing",
     "diableavionics_blizzaia_wing",
+    "diableavionics_avalanche_wing",
     "diableavionics_avalanche_wing"
   ]
 }

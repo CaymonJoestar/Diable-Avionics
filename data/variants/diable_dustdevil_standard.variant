@@ -3,8 +3,8 @@
   "hullId": "diable_dustdevil",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 24,
-  "fluxVents": 20,
+  "fluxCapacitors": 26,
+  "fluxVents": 26,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -70,6 +70,7 @@
   ],
   "modules": [],
   "wings": [
+    "diableavionics_strife_wing",
     "diableavionics_strife_wing",
     "diableavionics_strife_wing",
     "diableavionics_strife_wing"

@@ -3,7 +3,7 @@
   "hullId": "diable_dustdevil",
   "displayName": "Support",
   "goalVariant": true,
-  "fluxCapacitors": 10,
+  "fluxCapacitors": 12,
   "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
@@ -72,6 +72,7 @@
   "wings": [
     "diableavionics_warlust_wing",
     "diableavionics_warlust_wing",
+    "diableavionics_blizzaia_wing",
     "diableavionics_blizzaia_wing"
   ]
 }

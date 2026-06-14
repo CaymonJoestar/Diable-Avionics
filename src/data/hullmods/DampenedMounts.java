@@ -1,15 +1,17 @@
 package data.hullmods;
 
+import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 
 import static data.scripts.util.Diableavionics_stringsManager.txt;
 
-public class DampenedMounts extends DiableAvionicsMountBI {
+public class DampenedMounts extends BaseHullMod {
     public static final String MODULAR_MOUNT_ID = "diableavionics_mount";
     protected static final float MODULAR_FIRERATE_REDUCTION = -20;
     protected static final float MODULAR_WEAPON_DAMAGE_TAKEN = 100;
+    protected static final float RANGE_BOOST = 200;
 
     @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {

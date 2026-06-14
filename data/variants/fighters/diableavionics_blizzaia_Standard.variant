@@ -1,35 +1,36 @@
 {
+  "variantId": "diableavionics_blizzaia_Standard",
+  "hullId": "diableavionics_blizzaia",
   "displayName": "7th gen Wanzer",
+  "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,
-  "hullId": "diableavionics_blizzaia",
-  "hullMods": [
-    "diableavionics_wanzer",
-    "autorepair"
-  ],
   "quality": 0,
-  "variantId": "diableavionics_blizzaia_Standard",
+  "permaMods": [],
+  "hullMods": [
+    "diableavionics_wanzer"
+  ],
   "weaponGroups": [
     {
       "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
-        "LEFT": "diableavionics_blizzaiaCicada",
+        "LEFT": "diableavionics_blizzaiaCicada"
       }
     },
     {
       "autofire": true,
       "mode": "ALTERNATING",
-      "weapons": {
-        "RIGHT": "diableavionics_blizzaiaGraveac",
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
-        "HEAD": "diableavionics_blizzaiaHead",
+        "HEAD": "diableavionics_blizzaiaHead"
       }
-    },
-  ]
+    }
+  ],
+  "modules": [],
+  "wings": []
 }

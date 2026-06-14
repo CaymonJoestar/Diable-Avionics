@@ -1,29 +1,18 @@
 {
-  "bounds": [
-    15,
-    7,
-    10,
-    12,
-    12,
-    25.5,
-    -3,
-    25.5,
-    -1,
-    12,
-    -11.5,
-    6,
-    -11.5,
-    -6,
-    -1,
-    -12,
-    -3,
-    -25.5,
-    12,
-    -25.5,
-    10,
-    -12,
-    15,
-    -7
+  "hullName": "Warlust",
+  "hullId": "diableavionics_warlust",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/da/ships/warlust/diableavionics_warlust_body.png",
+  "style": "DA_WANZER",
+  "height": 35,
+  "width": 42,
+  "center": [21, 17],
+  "collisionRadius": 33.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 33.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "diableavionics_wanzer"
   ],
   "builtInWeapons": {
     "LEFT": "diableavionics_warlustmissile",
@@ -31,99 +20,77 @@
     "RIGHT": "diableavionics_warlustgun",
     "WS_HEAD": "diableavionics_warlusthead"
   },
-  "center": [
-    21,
-    17
-  ],
-  "collisionRadius": 33.5,
-  "engineSlots": [
-    {
-      "angle": -180,
-      "contrailSize": 13,
-      "length": 7.5,
-      "location": [
-        -16,
-        -0
-      ],
-      "style": "CUSTOM",
-      "styleId": "DiableAvionicsTrail",
-      "width": 13
-    }
-  ],
-  "height": 35,
-  "hullId": "diableavionics_warlust",
-  "hullName": "Warlust",
-  "hullSize": "FIGHTER",
-  "shieldCenter": [
-    0,
-    -0
-  ],
-  "shieldRadius": 33.5,
-  "spriteName": "graphics/da/ships/warlust/diableavionics_warlust_body.png",
-  "style": "DA_WANZER",
-  "viewOffset": 0,
   "weaponSlots": [
     {
-      "angle": 15,
-      "arc": 90,
       "id": "PAULDRON",
-      "locations": [
-        4,
-        17
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
       "type": "DECORATIVE",
-      "renderOrderMod":+30,
-    },
-    {
-      "angle": 0,
-      "arc": 135,
-      "id": "WS_HEAD",
-      "locations": [
-        4,
-        -0
-      ],
       "mount": "TURRET",
-      "size": "SMALL",
-      "type": "BUILT_IN"
-    },
-    {
+      "arc": 90,
       "angle": 15,
-      "arc": 90,
+      "locations": [4, 17],
+      "renderOrderMod": 30
+    },
+    {
+      "id": "WS_HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [4, -0]
+    },
+    {
       "id": "LEFT",
-      "locations": [
-        4,
-        17
-      ],
-      "mount": "TURRET",
       "size": "SMALL",
-      "type": "BUILT_IN"
-    },
-    {
-      "angle": -15,
+      "type": "BUILT_IN",
+      "mount": "TURRET",
       "arc": 90,
-      "id": "RIGHT",
-      "locations": [
-        4,
-        -17
-      ],
-      "mount": "TURRET",
-      "size": "SMALL",
-      "type": "BUILT_IN"
+      "angle": 15,
+      "locations": [4, 17]
     },
     {
-      "angle": 45,
-      "arc": 0,
-      "id": "DRONE",
-      "locations": [
-        1.5,
-        17.5
-      ],
-      "mount": "TURRET",
+      "id": "RIGHT",
       "size": "SMALL",
-      "type": "SYSTEM"
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -15,
+      "locations": [4, -17]
+    },
+    {
+      "id": "DRONE",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 45,
+      "locations": [1.5, 17.5]
     }
   ],
-  "width": 42
+  "engineSlots": [
+    {
+      "location": [-16, -0],
+      "length": 7.5,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 13,
+      "style": "CUSTOM",
+      "styleId": "DiableAvionicsTrail"
+    }
+  ],
+  "bounds": [
+    15, 7,
+    10, 12,
+    12, 25.5,
+    -3, 25.5,
+    -1, 12,
+    -11.5, 6,
+    -11.5, -6,
+    -1, -12,
+    -3, -25.5,
+    12, -25.5,
+    10, -12,
+    15, -7
+  ]
 }

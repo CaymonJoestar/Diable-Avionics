@@ -1,0 +1,54 @@
+{
+  "id": "diable_nuwanzer_blade_LeftArm",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "beamEffect": "data.scripts.weapons.diable_wanzerBlade",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/da/ships/Nuwanzer/nuwanzer_gun_L.png",
+  "hardpointSprite": "graphics/fx/empty.png",
+  "showDamageWhenDecorative": true,
+  "glowColor": [
+    255,
+    0,
+    255,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    21,
+    20
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    0,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "beamFireOnlyOnFullCharge": true,
+  "fringeColor": [
+   33,103,120,150
+  ],
+  "coreColor": [
+    107,195,210,220
+  ],
+  "width": 25,
+  "textureType": [
+    "graphics/da/fx/diable_parax_beam_fringe.png",
+    "graphics/da/fx/nocturnebeamtexture.png"
+  ],
+  "textureScrollSpeed": 300,
+  "pixelsPerTexel": 3,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundOne": "laser_intro",
+  "fireSoundTwo": "diable_saber_loop"
+}

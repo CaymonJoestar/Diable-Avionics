@@ -1,0 +1,205 @@
+{
+  "hullName": "Frostbite(P)",
+  "hullId": "diable_frostbiteP",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/da/ships/frostbite/armaa_leynos_hips.png",
+  "style": "DA_WANZER",
+  "height": 30,
+  "width": 22,
+  "center": [11, 16],
+  "collisionRadius": 45,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 54,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "diable_strikecraft"
+  ],
+  "builtInWeapons": {
+    "AGUN2": "diable_frostbiteP_leftArm",
+    "A_GUN": "diable_frostbiteP_rightArm",
+    "B_TORSO": "diable_frostbite_torsoP",
+    "D_PAULDRONL": "diable_frostbiteP_leftPauldron",
+    "D_PAULDRONR": "diable_frostbiteP_rightPauldron",
+    "E_HEAD": "diable_frostbiteheadP"
+  },
+  "weaponSlots": [
+    {
+      "id": "A_GUN",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -15,
+      "locations": [13, -19]
+    },
+    {
+      "id": "TRUE_GUN",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -15,
+      "locations": [13, -19],
+      "renderOrderMod": -900
+    },
+    {
+      "id": "B_TORSO",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, 0],
+      "renderOrderMod": 400
+    },
+    {
+      "id": "B_TORSO_VERNIER",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-4, 0]
+    },
+    {
+      "id": "AGUN2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 15,
+      "locations": [13, 19]
+    },
+    {
+      "id": "D_PAULDRONL",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": 0,
+      "locations": [-5, 10],
+      "renderOrderMod": 500
+    },
+    {
+      "id": "D_PAULDRONR",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 20,
+      "angle": -0,
+      "locations": [0.5, -7],
+      "renderOrderMod": 500
+    },
+    {
+      "id": "E_HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [2, -0],
+      "renderOrderMod": 500
+    },
+    {
+      "id": "F_LEGS",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-5.5, -0],
+      "renderOrderMod": -1000
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [9, -0],
+      "renderOrderMod": -900
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [9, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 50,
+      "locations": [-5, 14],
+      "renderOrderMod": 600
+    },
+    {
+      "id": "TRUE_GUN2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 15,
+      "locations": [13, 19]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-15, -6],
+      "length": 18,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-15, 6],
+      "length": 18,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-15, 6],
+      "length": 16.5,
+      "width": 5,
+      "angle": 141.5,
+      "contrailSize": 5,
+      "style": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-15, -6],
+      "length": 16.5,
+      "width": 5,
+      "angle": -141.5,
+      "contrailSize": 30,
+      "style": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-11, -0],
+      "length": 18,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "DiableAvionicsTrail"
+    }
+  ],
+  "bounds": [
+    13, -4,
+    12, -8,
+    -7, -8,
+    -12, -7,
+    -12, 6,
+    -7, 8,
+    12, 8,
+    13, 4
+  ]
+}

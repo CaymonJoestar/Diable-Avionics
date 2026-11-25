@@ -1,0 +1,24 @@
+{
+  "diableavionics": {
+    "descriptionOverride": "The ships in this Avionics fleet are known for the following reputations:",
+	"allowFamousFlagshipsInFleets": true,
+    "allowFamousFlagshipBarEvent": true,
+    "allowFamousDerelictBarEvent": true,
+    "goodTraitFrequency": {
+      "damage": 3,
+      "fighter_damage": 3,
+      "fighter_durability": 3,
+      "weapon_stability": 2,
+      "engine_power": 2,
+      "maneuverability": 2
+    },
+    "badTraitFrequency": {
+	  "weapon_stability": 1,
+      "engine_durability": 1,
+	  "armor_strength": 2,
+      "mount_durability": 1,
+      "sensor_profile": 2,
+      "cursed": 1
+    }
+  }
+}

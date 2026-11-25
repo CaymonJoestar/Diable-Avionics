@@ -1,8 +1,8 @@
 {
 	"id":"diableavionics_vortex",
 	"type":"DRONE_LAUNCHER",
-	"aiType":"DRONE_LAUNCHER_PD",
-	
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.ai.diable_calmsystemAI",
 	"droneVariant":"diableavionics_vortex_PD",
 	
 	"allowFreeRoam":true,

@@ -51,6 +51,7 @@ public class DAModPlugin extends BaseModPlugin {
     public static List<String> DERECHO_IMMUNE = new ArrayList<>();
     public static List<String> WANZERS = new ArrayList<>();
     public static float GANTRY_TIME_MULT = 1, GANTRY_DEPLETION_PERCENT = 0, GANTRY_OP_MODIFIER = 0;
+    public static boolean haveGettag;
     public static final boolean haveNexerelin = Global.getSettings().getModManager().isModEnabled("nexerelin");
 
 
@@ -104,7 +105,36 @@ public class DAModPlugin extends BaseModPlugin {
     @Override
     public void onGameLoad(boolean newGame) {
         Global.getSector().registerPlugin(new DACampaignPlugin());
+        haveGettag = Global.getSettings().getModManager().isModEnabled("armaa");
+        if (newGame) {
+            if (haveGettag) {
+                if (Global.getSettings().getHullSpec("diable_valkwanzer") != null) {
+                    Global.getSector().getFaction("diableavionics").getKnownShips().add("diable_valkwanzer");
+                }
+                if (Global.getSettings().getHullSpec("diable_valkwanzer") != null) {
+                    Global.getSector().getFaction("diableavionics").getPriorityShips().add("diable_valkwanzer");
+                }
+                if (Global.getSettings().getHullSpec("diable_frostbite") != null) {
+                    Global.getSector().getFaction("diableavionics").getKnownShips().add("diable_frostbite");
+                }
+                if (Global.getSettings().getHullSpec("diable_frostbite") != null) {
+                    Global.getSector().getFaction("diableavionics").getPriorityShips().add("diable_frostbite");
+                }
+                if (Global.getSettings().getHullSpec("diable_frostbiteP") != null) {
+                    Global.getSector().getFaction("pirates").getKnownShips().add("diable_frostbiteP");
+                }
+                { if (Global.getSettings().getHullSpec("diable_valkwanzer") != null)
+                    Global.getSettings().getHullSpec("diable_valkwanzer").addTag("diable_ship_bp");}
+                { if (Global.getSettings().getHullSpec("diable_frostbite") != null)
+                    Global.getSettings().getHullSpec("diable_frostbite").addTag("diable_ship_bp");}
+                { if (Global.getSettings().getHullSpec("diable_frostbiteP") != null)
+                    Global.getSettings().getHullSpec("diable_frostbiteP").addTag("pirates");}
 
+                Global.getSector().getFaction("diableavionics").clearShipRoleCache();
+                Global.getSector().getFaction("pirates").clearShipRoleCache();
+
+            }
+        }
         if (!haveNexerelin || SectorManager.getManager().isCorvusMode()) {
             if (!Global.getSector().getMemoryWithoutUpdate().contains(MEMKEY_INTIALIZED)) {
                 addToOngoingGame();

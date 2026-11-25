@@ -1,0 +1,49 @@
+{
+  "id": "diable_frostbiteheadP",
+  "specClass": "projectile",
+  "projectileSpecId": "diableavionics_ibis_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/da/ships/frostbite/frostbiteP_head.png",
+  "hardpointSprite": "",
+  "specialWeaponGlowHeight": 5,
+  "specialWeaponGlowWidth": 4,
+  "turretOffsets": [
+    6.5,
+    2.5,
+    6.5,
+    -2.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    7,
+    2.5,
+    7,
+    -2.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 6,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "particleDuration": 0.15,
+    "particleCount": 7,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "diableavionics_ibis_firing"
+}

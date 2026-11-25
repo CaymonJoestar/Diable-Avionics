@@ -1,7 +1,16 @@
 {        
 	#CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK CHECK 
 
-
+	"diable_saber_slash":[ 
+		{"file":"sounds/sfx_impacts/beam_hit_01.ogg","pitch":1.03,"volume":1.03},
+		{"file":"sounds/sfx_impacts/beam_hit_02.ogg","pitch":1,"volume":1},
+		{"file":"sounds/sfx_impacts/beam_hit_01.ogg","pitch":.97,"volume":.97},
+	],
+	"diable_saber_loop":[ 
+		{"file":"sounds/diablefx/diable_lasersword_loop.ogg","pitch":1.03,"volume":1.03},
+		{"file":"sounds/diablefx/diable_lasersword_loop.ogg","pitch":1,"volume":1},
+		{"file":"sounds/diablefx/diable_lasersword_loop.ogg","pitch":.97,"volume":.97},
+	],
         "diableavionics_virtuousSyphon_loop":[
 		{"file":"sounds/diablefx/da_virtuousSyphon_loop.ogg","pitch":1.00, "volume":0.3},
         ],

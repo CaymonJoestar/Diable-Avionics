@@ -10,11 +10,13 @@ import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl;
 import exerelin.campaign.battle.NexFleetInteractionDialogPluginImpl;
 
+import java.util.List;
+
 public class DANexVirtuousFleetInteractionDialogPluginImpl extends NexFleetInteractionDialogPluginImpl {
     @Override
     public void backFromEngagement(EngagementResultAPI result) {
         if (DACampaignPlugin.hasMemoryInFleet(otherFleet, "$virtuous") && DACampaignPlugin.hasMemoryInFleet(otherFleet, "$simulationRunning")) {
-            restoreOrigCaptains();
+            restoreOrigCaptains(null);
             if (origFlagship != null) {
                 if (selectedFlagship != null) {
                     PersonAPI captain = origFlagship.getCaptain();

@@ -1,0 +1,47 @@
+id
+# NOTES
+# Ship IDs entered here will be allowed by the Engineering hub (Reverse Engineering ship hulls)
+# Ships that would break the game (Balance/Technical/Lore) if the player could produce them via blueprint should not be on this list.
+
+diable_dustdevil
+diable_ashfall
+
+diable_polarV
+diable_brisk
+diable_riptide
+diable_tidal
+diable_tidalp
+diableavionics_chinookp
+diableavionics_coldfront
+diable_tornado
+diable_tornadop
+
+diableavionics_draft
+diableavionics_vapor
+diableavionics_sleet
+diableavionics_shear
+diableavionics_laminar
+diableavionics_versant
+
+diableavionics_calm
+diableavionics_hayle
+diableavionics_derecho
+diableavionics_miniGust
+diableavionics_fractus
+diableavionics_chinook
+diableavionics_stratus
+diableavionics_stratus_p
+diableavionics_cirrus
+diableavionics_coanda
+
+diableavionics_gust
+diableavionics_haze
+diableavionics_storm
+
+diableavionics_daze
+diableavionics_rime
+diableavionics_rime_p
+diableavionics_rime_m
+
+diableavionics_maelstrom
+diableavionics_pandemonium

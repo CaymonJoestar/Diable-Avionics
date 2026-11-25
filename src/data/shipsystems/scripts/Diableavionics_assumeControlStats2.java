@@ -68,9 +68,9 @@ public class Diableavionics_assumeControlStats2 extends MagicSubsystem {
                 //accelerate fighters
                 float shipTimeMult = 1.25f;
                 fighter.getMutableStats().getTimeMult().modifyMult(SYSTEM_ID, shipTimeMult);
-                fighter.getMutableStats().getHullDamageTakenMult().modifyMult(SYSTEM_ID, 0.33f);
-                fighter.getMutableStats().getArmorDamageTakenMult().modifyMult(SYSTEM_ID, 0.33f);
-                fighter.getMutableStats().getShieldDamageTakenMult().modifyMult(SYSTEM_ID, 0.33f);
+                fighter.getMutableStats().getHullDamageTakenMult().modifyMult(SYSTEM_ID, 0.80f);
+                fighter.getMutableStats().getArmorDamageTakenMult().modifyMult(SYSTEM_ID, 0.80f);
+                fighter.getMutableStats().getShieldDamageTakenMult().modifyMult(SYSTEM_ID, 0.80f);
 
             }
 

@@ -1,0 +1,225 @@
+{
+  "hullName": "Valk Wanzer",
+  "hullId": "diable_valkwanzer",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/da/ships/frostbite/armaa_leynos_hips.png",
+  "style": "DA_WANZER",
+  "height": 30,
+  "width": 22,
+  "center": [11, 16],
+  "collisionRadius": 45,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 54,
+  "viewOffset": 0,
+  "builtInMods": [
+    "autorepair",
+    "diable_strikecraft"
+  ],
+  "builtInWeapons": {
+    "AGUN2": "diable_nuwanzer_blade_LeftArm",
+    "A_GUN": "diable_nuwanzer_rightArm",
+    "B_TORSO": "diable_nuwanzer_torso",
+    "D_PAULDRONL": "diable_nuwanzer_leftPauldron",
+    "D_PAULDRONR": "diable_nuwanzer_rightPauldron",
+    "E_HEAD": "diable_frostbitehead"
+  },
+  "weaponSlots": [
+    {
+      "id": "A_GUN",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -10,
+      "locations": [14, -17]
+    },
+    {
+      "id": "TRUE_GUN",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -10,
+      "locations": [14, -17],
+      "renderOrderMod": -900
+    },
+    {
+      "id": "B_TORSO",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, 0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "B_TORSO_VERNIER",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-4, 0]
+    },
+    {
+      "id": "AGUN2",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 5,
+      "locations": [7, 3]
+    },
+    {
+      "id": "C_ARMR",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [3, -3]
+    },
+    {
+      "id": "D_PAULDRONL",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": 0,
+      "locations": [0, 3],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "D_PAULDRONR",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 10,
+      "angle": -0,
+      "locations": [0, -3],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "E_HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [1, 0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "F_GLOW",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, -3]
+    },
+    {
+      "id": "F_LEGS",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-5.5, -0],
+      "renderOrderMod": -1000
+    },
+    {
+      "id": "H_GLOW",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [1, 0]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 5,
+      "angle": 0,
+      "locations": [7, 0],
+      "renderOrderMod": -900
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -15,
+      "locations": [7, 0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 45,
+      "locations": [-12, 16],
+      "renderOrderMod": 400
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [2, 4],
+      "renderOrderMod": -900
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, -9],
+      "length": 18,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-13, 9],
+      "length": 18,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-13, 10],
+      "length": 16.5,
+      "width": 5,
+      "angle": 141.5,
+      "contrailSize": 5,
+      "style": "DiableAvionicsTrail"
+    },
+    {
+      "location": [-13, -10],
+      "length": 16.5,
+      "width": 5,
+      "angle": -141.5,
+      "contrailSize": 30,
+      "style": "DiableAvionicsTrail"
+    }
+  ],
+  "bounds": [
+    14.5, -2.5,
+    13.5, -8.5,
+    -5.5, -9,
+    -11, -6.5,
+    -11, 6.5,
+    -5.5, 9,
+    12, 8.5,
+    14.5, 6.5
+  ]
+}

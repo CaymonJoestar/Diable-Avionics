@@ -8,11 +8,13 @@ import com.fs.starfarer.api.combat.EngagementResultAPI;
 import com.fs.starfarer.api.fleet.FleetMemberAPI;
 import com.fs.starfarer.api.impl.campaign.FleetInteractionDialogPluginImpl;
 
+import java.util.List;
+
 public class DAVirtuousFleetInteractionDialogPluginImpl extends FleetInteractionDialogPluginImpl {
     @Override
     public void backFromEngagement(EngagementResultAPI result) {
         if (DACampaignPlugin.hasMemoryInFleet(otherFleet, "$virtuous") && DACampaignPlugin.hasMemoryInFleet(otherFleet, "$simulationRunning")) {
-            restoreOrigCaptains();
+            restoreOrigCaptains(null);
             if (origFlagship != null) {
                 if (selectedFlagship != null) {
                     PersonAPI captain = origFlagship.getCaptain();

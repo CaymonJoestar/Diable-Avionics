@@ -6,6 +6,7 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.util.IntervalUtil;
 import data.scripts.util.Diableavionics_finder;
+import data.scripts.util.Diableavionics_finder2;
 import org.jetbrains.annotations.NotNull;
 import org.lazywizard.lazylib.MathUtils;
 import org.lazywizard.lazylib.VectorUtils;
@@ -23,7 +24,7 @@ import static data.scripts.util.Diableavionics_stringsManager.txt;
 
 public class Diableavionics_AWACSsubsystem extends MagicSubsystem {
 
-    private static float BASE_SEARCH_RANGE = 1250f;
+    private static float BASE_SEARCH_RANGE = 1500f;
 
     private static float EFFECT_MULT = 1.25f;
     private List<ShipAPI> effected_wanzers = new ArrayList<>();
@@ -59,7 +60,7 @@ public class Diableavionics_AWACSsubsystem extends MagicSubsystem {
         if(chechtick.intervalElapsed()){
 
             score=0f;
-            effected_wanzers = Diableavionics_finder.nearbyWanzerInRange(ship, BASE_SEARCH_RANGE);
+            effected_wanzers = Diableavionics_finder2.nearbyWanzerInRange(ship, BASE_SEARCH_RANGE);
 
             if(!effected_wanzers.isEmpty()){
                 for (ShipAPI wanzer:effected_wanzers){
@@ -241,7 +242,7 @@ public class Diableavionics_AWACSsubsystem extends MagicSubsystem {
             }  // return score=0
             else {
                 String wanzerId = wanzer.getHullSpec().getHullId();
-                score = Diableavionics_finder.DIABLE_WANZER_SCORE_MAP.get(wanzerId);
+                score = Diableavionics_finder2.DIABLE_WANZER_SCORE_MAP.get(wanzerId);
                 ShipAPI target = wanzer.getShipTarget();
                 if(target.getFluxTracker().isOverloaded()||target.getFluxTracker().isVenting()){
                     score+=1;

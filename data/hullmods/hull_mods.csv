@@ -1,4 +1,5 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+Strikecraft Caller,diable_strikecraft,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.diable_strikecraft,"Thank you Gettag, Very cool",,,graphics/da/hullmods/diableavionics_mount.png
 ,,,,,,,,,,,,,,,,,,,
 Aquila Caller,diableavionics_aquila,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.diableAvionicsAquila,"Thank you Tim, Very cool",,,graphics/da/hullmods/diableavionics_mount.png
 ,,,,,,,,,,,,,,,,,,,
